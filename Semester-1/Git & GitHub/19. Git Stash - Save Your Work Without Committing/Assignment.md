@@ -108,7 +108,7 @@ git push -u origin main
 ## Assignment B —  Theoretical  
 **Title:** “Stash Concepts”
 
-**Submit:** File `assignmentB.md` with short answers.
+**Submit:** Write short answers in your notebook.
 
 Answer in 2–4 lines each.
 
@@ -210,7 +210,7 @@ git push -u origin main
 
 ### Part C2 — Theory (10 mins)
 
-Answer in 2–4 lines each in `assignmentC.md`.
+Answer in 2–4 lines each in your notebook.
 
 6. In your own words, what is `git stash` and why is it useful?  
 
@@ -235,15 +235,15 @@ Answer in 2–4 lines each in `assignmentC.md`.
 
 - **Assignment A:**  
   - Repo: `git-stash-A-<username>`  
-  - File: `assignmentA.md` with Q1–Q6 + 3 screenshots.
+  - Photos + Screenshots: Photos contains Q1–Q6 answers written in your notebook  + 3 screenshots.
 
 - **Assignment B:**  
   - Any repo or Google Doc.  
-  - File: `assignmentB.md` with answers to Q1–Q8.
+  - Photos: Photos contains Q1–Q8 answers written in your notebook.
 
 - **Assignment C:**  
   - Repo: `git-stash-C-<username>`  
-  - File: `assignmentC.md` with Q1–Q10 + 2 screenshots.
+  - Photos & Screenshots: Photos contains Q1–Q6 answers written in your notebook + 2 screenshots.
 
 ***
 
