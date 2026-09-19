@@ -8,6 +8,8 @@
 * Perform the practical tasks using Git.
 * Use `git log --oneline --graph --all` to show your commit history.
 * Take screenshots of important steps if required.
+* Write the answers of the theoretical questions in your notebook and submit the photos in your CodingGita_assignment repository.
+* Take the screenshots of commit history of all branches and submit the screenshots + GitHub Repo link for all practical questions in your CodingGita_assignment repository.
 
 ---
 
@@ -241,7 +243,7 @@ git log --oneline --graph --all
 
 ---
 
-# Q6. Short Practical Questions
+# Q6. Short Practical + Theoretical Questions 
 
 Perform the following commands and explain what each one does:
 
@@ -316,6 +318,8 @@ Before submitting, make sure you have:
   git log --oneline --graph --all
   ```
 
+---
+> **Submission Guidelines:** Given in the instructions.
 ---
 
 # Quick Revision
