@@ -1,24 +1,24 @@
-## 19 September (Saturday) (Swarrnim)
+## 27 September (Saturday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
-| 9:30–11:00  | Github(Nikhil Sir)    |
+| 9:30–11:00  | Javascript(Nikhil Sir)    |
 | 11:00–1:00 | Python (Sumit Sir)     |
 | 1:00–2:00  | Break                 | 
 | 2:00–4:00   | HTML(Sumit Sir)      |
 
-## 18 September (Friday) (Swarrnim)
+## 26 September (Friday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
-| 9:30–11:00  | Github(Nikhil Sir)    |
+| 9:30–11:00  | javascript(Nikhil Sir)    |
 | 11:00–1:00 | Python (Sumit Sir)     |
 | 1:00–2:00  | Break                 | 
 | 2:00–4:00   | HTML(Sumit Sir)      |
 | 4:00–4:30   | Break    |
 | 4:30–6:00   | Industry Readiness    |
 
-## 17 September (Thursday) (Swarrnim)
+## 24 September (Thursday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -30,11 +30,11 @@
 | 4:30–6:00   | Industry Readiness    | 
 
 
-## 16 September (Wednesday) (Swarrnim)
+## 23 September (Wednesday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
-| 9:30–11:00  | Github(Nikhil Sir)    |
+| 9:30–11:00  | javascript(Nikhil Sir)    |
 | 11:00–1:00 | Python (Sumit Sir)     |
 | 1:00–2:00  | Break                 | 
 | 2:00–4:00   | HTML(Sumit Sir)      |
@@ -44,11 +44,11 @@
 
 
 
-## 15 September (Tuesday) (Swarrnim)
+## 22 September (Tuesday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
-| 9:30–11:00  | Github(Nikhil Sir)    |
+| 9:30–11:00  | javascript    |
 | 11:00–1:00 | Python (Sumit Sir)     |
 | 1:00–2:00  | Break                 | 
 | 2:00–4:00   | HTML(Sumit Sir)      |
@@ -56,7 +56,7 @@
 | 4:30–6:00   | Industry Readiness    | 
 
 
-## 19 September (Saturday) (SU)
+## 26 September (Saturday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
@@ -67,7 +67,7 @@
 | 3:00–4:00   | Figma(Prabhat sir)     | 3:00–4:00   | Javascript (Nikhil Sir)       |
 
 
-## 18 September (Friday) (SU)
+## 25 September (Friday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
@@ -80,7 +80,7 @@
 | 4:15–6:30   | Industry Readiness  | 4:15–6:00   | Industry Readiness  |
 
 
-## 17 September (Thursday) (SU)
+## 24 September (Thursday) (SU)
 
 | Time            | CG LAB 3                | Time            | CG LAB 4                |
 | --------------- | ----------------------- | --------------- | ----------------------- |
@@ -95,7 +95,7 @@
 
 
 
-## 16 Septembner (Wednesday) (SU)
+## 23 Septembner (Wednesday) (SU)
 
 | Time            | CG LAB 3                | Time            | CG LAB 4                |
 | --------------- | ----------------------- | --------------- | ----------------------- |
@@ -109,15 +109,15 @@
 | 4:15–6:30   | Industry Readiness      | 4:15–6:00   | Industry Readiness      |
 
 
-## 15 September (Tuesday) (SU)
+## 22 September (Tuesday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
-| 09:30–11:15  | HTML (Sumit Sir)      | 09:30–11:15  | Figma(Prabhat sir)    |
-| 11:15–1:00 | Figma(Prabhat sir)       | 11:15–1:00 | HTML (Sumit Sir)      |
+| 09:30–11:15  | HTML (Sumit Sir)      | 09:30–11:15  | Python(Saurav Sir)    |
+| 11:15–1:00 | Python(Saurav sir)       | 11:15–1:00 | HTML (Sumit Sir)      |
 | 1:00–2:00  | Break                 | 1:00–2:00  | Break                 |
-| 2:00–3:00   | Javascript (Nikhil Sir)      | 2:00–3:00   | Python(Sumit sir)     |
-| 3:00–4:00   | Python(Sumit sir)     | 3:00–4:00   | Javascript (Nikhil Sir)       |
+| 2:00–3:00   | Javascript (Nikhil Sir)      | 2:00–3:00   | Figma(Prabhat sir)     |
+| 3:00–4:00   | Figma(Prabhat sir)     | 3:00–4:00   | Javascript (Nikhil Sir)       |
 | 4:00–4:15   | Break                 | 4:00–4:15   | Break                 |
 | 4:15–6:30   | Industry Readiness  | 4:15–6:00   | Industry Readiness  |
 
