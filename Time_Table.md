@@ -1,4 +1,4 @@
-## 27 September (Saturday) (Swarrnim)
+## 04 October (Saturday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -8,7 +8,7 @@
 | 2:00–4:00   |HTML(Sumit Sir)       |
 
 
-## 26 September (Friday) (Swarrnim)
+## 03 October (Friday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -19,7 +19,7 @@
 | 3:00–4:00   | Figma(Prabhat Sir)      |
 | 4:30–6:00   | Industry Readiness    |
 
-## 24 September (Thursday) (Swarrnim)
+## 02 October (Thursday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -31,7 +31,7 @@
 | 4:30–7:00   | Industry Readiness    | 
 
 
-## 23 September (Wednesday) (Swarrnim)
+## 30 September (Wednesday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -45,7 +45,7 @@
 
 
 
-## 22 September (Tuesday) (Swarrnim)
+## 29 September (Tuesday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
