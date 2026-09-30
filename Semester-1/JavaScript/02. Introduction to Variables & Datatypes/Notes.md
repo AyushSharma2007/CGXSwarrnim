@@ -1,6 +1,5 @@
-
-## Introduction to Variables and Datatypes
-
+# Introduction to Variables and Datatypes
+---
 - Variables are containers for storing data values.
 - Think of variables as labeled boxes where you can store stuff, like your name, age, or score.
 - In JavaScript, we use variables to save data so we can use it later in our program.
@@ -48,7 +47,115 @@ const PI = 3.14159;
 // PI = 3.14; // This would cause an error
 ```
 
+---
+
+### Comparison Table
+
+| Feature | `var` | `let` | `const` |
+| --- | --- | --- | --- |
+| **Scope** | Function scope | Block scope `{}` | Block scope `{}` |
+| **Re-declaration** | Allowed in same scope | Not allowed in same scope | Not allowed in same scope |
+| **Re-assignment** | Allowed | Allowed | Not allowed |
+| **Initialization** | Optional when declaring | Optional when declaring | **Mandatory** during declaration |
+
+---
+
 **Best practice:** Use `const` by default. Use `let` only when you need to reassign. Avoid `var` in new code.
+
+---
+
+### Examples for Each Difference
+
+#### 1. Scope (Function Scope vs. Block Scope)
+
+* **`var`** is accessible anywhere inside the enclosing function, ignoring block boundaries (like `if` statements or loops).
+* **`let`** and **`const`** are strictly scoped to the block `{}` in which they are defined.
+
+```javascript
+
+  if (true) {
+    var x = "I am var";
+    let y = "I am let";
+    const z = "I am const";
+  }
+
+  console.log(x); // Output: "I am var" (ignores block boundary)
+  // console.log(y); // ReferenceError: y is not defined
+  // console.log(z); // ReferenceError: z is not defined
+
+```
+
+---
+
+#### 2. Re-declaration
+
+* **`var`** allows declaring the same variable multiple times in the same scope without throwing an error.
+* **`let`** and **`const`** prohibit re-declaring a variable within the same scope.
+
+```javascript
+// var allows re-declaration
+var user = "Alice";
+var user = "Bob"; // Valid
+
+// let and const disallow re-declaration
+let score = 10;
+// let score = 20; // SyntaxError: Identifier 'score' has already been declared
+
+const id = 101;
+// const id = 102; // SyntaxError: Identifier 'id' has already been declared
+
+```
+
+---
+
+#### 3. Re-assignment
+
+* **`var`** and **`let`** allow you to reassign new values to a variable as many times as needed after declaration.
+* **`const`** creates a **read-only reference**; attempting to reassign a `const` variable to a new value will throw a runtime `TypeError`. 
+
+```javascript
+// var allows re-assignment
+var a = 10;
+a = 20; // Valid
+
+// let allows re-assignment
+let b = 10;
+b = 20; // Valid
+
+// const DISALLOWS re-assignment
+const c = 10;
+// c = 20; // TypeError: Assignment to constant variable.
+
+
+```
+
+---
+
+
+#### 4. Initialization Requirements
+
+* **`var`** and **`let`** can be declared without an immediate initial value. If left uninitialized, JavaScript automatically assigns them the value `undefined`.
+* **`const`** **must** be initialized with a value at the time of declaration, or JavaScript will throw a syntax error.
+
+```javascript
+// var: Optional at declaration (defaults to undefined)
+var x; 
+console.log(x); // Output: undefined
+x = 10;         // Initialized later
+
+// let: Optional at declaration (defaults to undefined)
+let y; 
+console.log(y); // Output: undefined
+y = 20;         // Initialized later
+
+// const: MANDATORY at declaration
+// const z;     // SyntaxError: Missing initializer in const declaration
+const z = 30;   // Must be assigned a value immediately
+
+```
+
+
+
 
 ***
 
