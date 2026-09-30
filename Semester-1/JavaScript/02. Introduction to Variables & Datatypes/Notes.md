@@ -51,12 +51,26 @@ const PI = 3.14159;
 
 ### Comparison Table
 
+
 | Feature | `var` | `let` | `const` |
 | --- | --- | --- | --- |
 | **Scope** | Function scope | Block scope `{}` | Block scope `{}` |
 | **Re-declaration** | Allowed in same scope | Not allowed in same scope | Not allowed in same scope |
 | **Re-assignment** | Allowed | Allowed | Not allowed |
 | **Initialization** | Optional when declaring | Optional when declaring | **Mandatory** during declaration |
+| **Hoisting** | Hoisted and initialized to `undefined` | Hoisted, but uninitialized (Temporal Dead Zone) | Hoisted, but uninitialized (Temporal Dead Zone) |
+
+---
+### Compact Comparison Table: 
+
+| Feature | `var` | `let` | `const` |
+| --- | --- | --- | --- |
+| Block Scope | ❌ | ✅ | ✅ |
+| Re-declaration | ✅ | ❌ | ❌ |
+| Re-assignment | ✅ | ✅ | ❌ |
+| Optional Initialization | ✅ | ✅ | ❌ |
+| Hoisting with `undefined` | ✅ | ❌ | ❌ |
+
 
 ---
 
@@ -154,8 +168,21 @@ const z = 30;   // Must be assigned a value immediately
 
 ```
 
+#### 5. Hoisting (Hoisting Behavior & Initialization)
 
+* **`var`** is hoisted and immediately initialized to `undefined`, allowing it to be accessed before declaration without an error.
+* **`let`** and **`const`** are hoisted but remain uninitialized in the **Temporal Dead Zone (TDZ)**, throwing a `ReferenceError` if accessed before declaration.
 
+```javascript
+  console.log(a); // Output: undefined
+  // console.log(b); // ReferenceError: Cannot access 'b' before initialization
+  // console.log(c); // ReferenceError: Cannot access 'c' before initialization
+
+  var a = "I am var";
+  let b = "I am let";
+  const c = "I am const";
+
+```
 
 ***
 
@@ -185,6 +212,11 @@ let num1 = 42;          // integer
 let num2 = 3.14;        // decimal
 let num3 = -10;         // negative
 let num4 = 2.5e3;       // 2500 (scientific notation)
+let num5 = Infinity;    // positive infinite value 
+let num6 = -Infinity;   // negative infinite value
+let num7 = NaN;         //Even though its name means "Not-a-Number", its type is still number.
+let num8 = 1_000_000;   // 1000000
+
 ```
 
 ### 2. String
@@ -195,7 +227,7 @@ let num4 = 2.5e3;       // 2500 (scientific notation)
 ```javascript
 let text1 = 'Hello';
 let text2 = "World";
-let text3 = `Hello ${text1}`; // template literal
+let text3 = `Hello ${text1}`; // template literal (introduced in ES6/ES2015)
 ```
 
 ### 3. Boolean
@@ -234,15 +266,45 @@ console.log(emptyValue); // null
 
 ```javascript
 let uniqueId = Symbol('id');
+
+console.log(Symbol('id') === Symbol('id')); // Output: false (Every Symbol creates a unique value)
+
+// Example (Mostly used for special internal purposes (like unique object keys).)
+let uniqueId = Symbol('id');
+let uniqueName = Symbol('id');
+
+const studentData = {
+  [uniqueId]: 123,
+  [uniqueName]: "Abhijeet"
+};
+
+console.log(studentData[uniqueId]);   // Output: 123
+console.log(studentData[uniqueName]); // Output: "Abhijeet"
+
 ```
 
 ### 7. BigInt (ES2020)
 
-- Represents very large integers (bigger than normal `number` can safely handle).
+- Represents very large integers (bigger than (2^53 - 1) normal `number` can safely handle and loose precesion).
 - Written with `n` at the end.
 
 ```javascript
 let bigNum = 1234567890123456789012345678901234567890n;
+
+// 1. Standard Number (LOSES precision)
+let num = 9007199254740991; // Number.MAX_SAFE_INTEGER (2^53 - 1 = 9007199254740991)
+
+console.log(num + 1); // 9007199254740992
+console.log(num + 2); // 9007199254740992 ❌ Precision Lost! (Should end in 3)
+console.log(num + 3); // 9007199254740994 ❌ Precision Lost! (Should end in 4)
+
+
+// 2. BigInt (KEEPS 100% precision)
+let bigNum = 9007199254740991n; // Appending 'n' makes it a BigInt
+
+console.log(bigNum + 1n); // 9007199254740992n
+console.log(bigNum + 2n); // 9007199254740993n ✅ Exact!
+console.log(bigNum + 3n); // 9007199254740994n ✅ Exact!
 ```
 
 ***
