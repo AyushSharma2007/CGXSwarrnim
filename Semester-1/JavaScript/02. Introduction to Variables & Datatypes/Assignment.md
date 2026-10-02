@@ -1,8 +1,7 @@
 # Assignment : Introduction to Variables and Datatypes
 ---
-## Part I : Variables (let, var, const)
 
-### Part a — 4 Questions
+### Part A] — 4 Questions
 
 **1. Personal Information**
 Declare variables for `name`, `age`, and `city` using appropriate variable keywords. Assign values and print all three variables.
@@ -18,7 +17,7 @@ Declare one variable having name `num1` using `var` and one having name `num2` u
 
 ---
 
-### Part b — 4 Questions
+### Part B] — 4 Questions
 
 **5. Choose the Correct Keyword**
 Create the following variables using the most appropriate keyword:
@@ -40,7 +39,7 @@ Create three variables using `var`, `let`, and `const`. Assign an initial value 
 
 ---
 
-### Part c — 2 Questions
+### Part C] — 2 Questions
 
 **9. Predict and Explain**
 Without running the code, predict the output of each `console.log()` and identify which lines cause errors. Explain your answer using the rules of scope, re-assignment, and variable declaration.
@@ -79,7 +78,7 @@ const score = 50;
 score = 80;
 ```
 
-#### Part d — 2 Question 
+#### Part D] — 2 Question 
 
 **11. Predict the Hoisting Behavior**  
 Without running the code, predict the output of each `console.log()` and identify which lines cause errors. Explain your answer using the rules of hoisting for `var`, `let`, and `const`.
@@ -114,7 +113,7 @@ console.log(x + " " + y + z);
 
 ---
 
-### Part e — Basic Identification (4 Questions)
+### Part E] — Basic Identification (4 Questions)
 
 **1. Classify the Types**  
 Declare one variable of each of the following types and print both the value and its type using `typeof`:
@@ -148,7 +147,7 @@ Print all three strings.
 
 ---
 
-### Part f — Advanced Primitive Types (3 Questions)
+### Part F] — Advanced Primitive Types (3 Questions)
 
 **5. Symbol Uniqueness**  
 Create two Symbols with the same description (`'id'`).  
@@ -171,7 +170,7 @@ For each description below, write the most appropriate primitive data type and g
 
 ---
 
-### Part g — Prediction & Fixing (3 Questions)
+### Part G] — Prediction & Fixing (3 Questions)
 
 **8. Predict the Output**  
 Without running the code, predict what each `console.log` will print (value + type). Explain your reasoning.
@@ -216,3 +215,123 @@ a) What is the main difference between Primitive and Non-Primitive data types?
 b) Why are Numbers, Strings, Booleans, Undefined, Null, Symbol, and BigInt called Primitive?  
 c) Give one example of a Non-Primitive data type and explain why it is considered Non-Primitive.
 
+
+
+---
+
+### Part H] - Non-Primitive Data Types Basic Creation & Usage (4 Questions)
+
+**1. Create an Object**  
+Create an object named `student` with the following properties:
+- `name` → `"Riya"`
+- `age` → `18`
+- `isEnrolled` → `true`  
+
+Print the entire object and then print each property individually.
+
+**2. Work with Arrays**  
+Create two arrays:
+- `scores` containing only numbers: `85, 92, 78, 90`
+- `mixedData` containing different types: a number, a string, a boolean, and `null`  
+
+Print both arrays. Also print the first and last element of the `scores` array using index.
+
+**3. Declare and Call a Function**  
+Write a function named `calculateArea` that takes two parameters (`length` and `width`) and returns the area of a rectangle.  
+Call the function twice with different values and print the results.
+
+**4. Check Types with `typeof`**  
+Create variables of the following types and print both the value and its type using `typeof`:
+- A number  
+- A string  
+- A boolean  
+- `null`  
+- An object  
+- An array  
+- A function  
+
+Observe and note any surprising results (especially with `null` and arrays).
+
+---
+
+### Part I] - Naming Rules & Best Practices (3 Questions)
+
+**5. Valid vs Invalid Variable Names**  
+Identify which of the following variable names are **valid** and which are **invalid**. For invalid ones, explain why.
+
+```javascript
+let userName;
+let 2ndPlace;
+let _privateData;
+let $price;
+let my-age;
+let function;
+let totalCount;
+let const;
+```
+
+**6. Apply Best Practices**  
+Rewrite the following poorly written code using best practices (`const`/`let`, meaningful names, camelCase, UPPERCASE for constants):
+
+```javascript
+let x = 10;
+let y = 5;
+let a = x * y;
+let b = 100;
+```
+
+**7. Declaration & Assignment**  
+Write code that demonstrates:
+- Declaring a variable without assigning a value, then assigning a value later  
+- Declaring and assigning a value in one step  
+- Creating a constant that cannot be changed  
+
+Print all variables.
+
+---
+
+### Part J] - Prediction & Fixing (3 Questions)
+
+**8. Predict the Output**  
+Without running the code, predict what each `console.log` will print. Explain your reasoning (especially for `typeof`).
+
+```javascript
+let person = { name: "Amit", age: 22 };
+let colors = ["red", "green", "blue"];
+function sayHi() {
+  return "Hi!";
+}
+let empty = null;
+
+console.log(typeof person);
+console.log(typeof colors);
+console.log(typeof sayHi);
+console.log(typeof empty);
+console.log(person.name);
+console.log(colors[1]);
+console.log(sayHi());
+```
+
+**9. Fix the Program**  
+The following code has multiple errors related to objects, arrays, functions, naming rules, and best practices. Fix it so that it runs correctly.
+
+```javascript
+let 1student = { name: "Neha", Age: 19 }
+let scores = 90, 85, 88
+function greet {
+  return "Hello " + name
+}
+const maxScore = 100
+maxScore = 95
+console.log(1student.name)
+console.log(scores[0])
+console.log(greet("Neha"))
+```
+
+**10. Concept Questions**  
+Answer the following in your own words with examples:
+
+a) What is the main difference between an **Object** and an **Array**?  
+b) Why does `typeof null` return `"object"`? Is `null` really an object?  
+c) Why is it recommended to keep arrays with a single data type?  
+d) When should you use `const` and when should you use `let`?
