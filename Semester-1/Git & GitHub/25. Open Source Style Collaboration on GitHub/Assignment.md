@@ -1,23 +1,26 @@
 # Assignment: Open Source Style Collaboration on GitHub(Collaborating Without Being Added as a Collaborator)
 
+
 ---
 
 ### Objective
 
 The goal of this assignment is to practice the **Fork + Pull Request** workflow in a **group**.  
-Your team will **not** be added as collaborators. You must contribute to the projects by forking the repository, making changes on your own copies, and submitting Pull Requests.
+Your team will **not** be added as collaborators. You must contribute by forking the repository, creating different pages, and submitting Pull Requests.
+
+**Note:** Students should use only **HTML and CSS**.
 
 ---
 
 ### Group Guidelines
 
 - Form a group of **3–4 members**
-- One member can fork the repository and share it, **or** each member can fork individually
-- Every member must create their own feature branch and contribute
+- One member can fork the repository (or each can fork)
+- Every member must create their own feature branch
 - All changes must go through **Pull Requests**
-- The **Owner / Team Leader** of the original repository will review and merge the final Pull Requests
+- The **Owner / Team Leader** will review and merge the Pull Requests
 
-**Branch naming example:** `feature/your-feature-name`
+**Branch naming example:** `feature/page-name`
 
 ---
 
@@ -29,20 +32,19 @@ Your team will **not** be added as collaborators. You must contribute to the pro
 **Original Repository:** `book-catalog-website`
 
 **Problem:**  
-A simple Book Catalog Website needs to be created. Currently the project is empty or incomplete. Your group has to create a basic Book Catalog page that displays a list of books.
+Create a simple multi-page Book Catalog Website using only HTML and CSS.
 
-**Group Task:**
-- Fork the repository
-- Create a branch named `feature/book-catalog-page`
-- Create a **Book Catalog page** that shows:
-  - Book Title
-  - Author Name
-  - Availability Status
-- Different members can work on different parts (HTML structure, styling, sample data, etc.)
-- Commit, push, and create a Pull Request
+**Team Member Tasks (Each member creates one full page):**
+
+| Team Member | Page to Create              | What the page should contain                          |
+|-------------|-----------------------------|-------------------------------------------------------|
+| **Member 1** | Home Page (`index.html`)    | Website title, welcome message, navigation links     |
+| **Member 2** | Book Catalog Page           | List of books with Title, Author, and Availability   |
+| **Member 3** | About Page                  | Information about the library/website                |
+| **Member 4** | Contact Page                | Contact form (Name, Email, Message) + address        |
 
 **Expected Outcome:**  
-A working Book Catalog page should be added to the project after the PR is merged.
+A complete multi-page Book Catalog Website with proper navigation between pages.
 
 ---
 
@@ -52,39 +54,42 @@ A working Book Catalog page should be added to the project after the PR is merge
 **Original Repository:** `college-event-registration`
 
 **Problem:**  
-The Event Listing page currently shows event name, date, and venue, but it does not show the **registration deadline**. Students are unable to see till when they can register.
+Create a simple multi-page College Event Registration Website using only HTML and CSS.
 
-**Group Task:**
-- Fork the repository
-- Create a branch named `feature/add-deadline`
-- Add a **Registration Deadline** field/section on the Event Listing page
-- Display a sample deadline (e.g., “Registration Deadline: 15 October 2025”)
-- Team members can divide work (UI design, content, responsiveness, etc.)
-- Commit, push, and create a Pull Request
+**Team Member Tasks (Each member creates one full page):**
+
+| Team Member | Page to Create                | What the page should contain                              |
+|-------------|-------------------------------|-----------------------------------------------------------|
+| **Member 1** | Home Page (`index.html`)      | Website title, short introduction, navigation links      |
+| **Member 2** | Events Listing Page           | List of events with Name, Date, Venue, and Deadline      |
+| **Member 3** | Registration Page             | Registration form (Name, Email, Event selection)         |
+| **Member 4** | Contact / Help Page           | Contact details and simple help information              |
 
 **Expected Outcome:**  
-Each event card/section on the listing page should clearly show the registration deadline.
+A complete multi-page Event Registration Website with working navigation links.
 
 ---
 
-### Problem Statement 3: Simple Todo Application  
+### Problem Statement 3: Simple Todo Website  
 **(Group Project)**
 
-**Original Repository:** `simple-todo-app`
+**Original Repository:** `simple-todo-website`
 
 **Problem:**  
-The Todo application allows users to add and delete individual tasks, but there is no option to mark a task as **Completed**.
+Create a simple multi-page Todo Website using only HTML and CSS.  
+(Note: Since only HTML & CSS is allowed, the pages will be static.)
 
-**Group Task:**
-- Fork the repository
-- Create a branch named `feature/mark-completed`
-- Add a **“Mark as Completed”** button (or checkbox) next to each task
-- When clicked, the task should get a visual indication (e.g., strikethrough text or change color)
-- Members can share responsibilities (JavaScript logic, CSS styling, testing, etc.)
-- Commit, push, and create a Pull Request
+**Team Member Tasks (Each member creates one full page):**
+
+| Team Member | Page to Create              | What the page should contain                              |
+|-------------|-----------------------------|-----------------------------------------------------------|
+| **Member 1** | Home Page (`index.html`)    | Website title, short description, navigation links       |
+| **Member 2** | My Tasks Page               | List of sample tasks with Title and Status (Pending/Done)|
+| **Member 3** | Add Task Page               | Form to add a new task (Task name, Description)          |
+| **Member 4** | About Page                  | Information about the Todo website                       |
 
 **Expected Outcome:**  
-Users should be able to mark tasks as completed, and completed tasks should look different from pending tasks.
+A complete multi-page static Todo Website with clear navigation.
 
 ---
 
@@ -132,11 +137,11 @@ Users should be able to mark tasks as completed, and completed tasks should look
 ### Submission Guidelines
 
 **For Part A (Group Projects):**
-- Group members list with roles
+- Group members list with the page assigned to each member
 - Link to the forked repository
-- Links to all Pull Requests created by the group
-- Branch names used
-- Short note explaining the contribution of each member
+- Links to all Pull Requests created by each member
+- Branch names used by each member
+- Short note explaining which page each member created
 
 **For Part B (Theoretical – Individual):**
 - Each student must submit their own answers
@@ -158,4 +163,4 @@ Users should be able to mark tasks as completed, and completed tasks should look
 > **Fork → Create Branch → Code → Commit → Push → Open Pull Request → Get Reviewed → Merged**
 
 Your group does **not** need collaborator access.  
-Contribute like a real open-source team.
+Each member contributes like a real open-source team.
