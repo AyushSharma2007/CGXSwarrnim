@@ -196,3 +196,209 @@
     let result = a ** b;
     console.log(result);
     ```
+
+---
+
+## B] Assignment Operators
+
+### 1. Simple Assignment `=`
+1. Store a student’s name as `"Priya"` and marks as `92` using the assignment operator.  
+2. Create a variable `score` and assign it the value `0`.  
+3. Assign the value `50` to three variables `a`, `b` and `c` using a single chained assignment.  
+4. Predict the output:
+   ```js
+   let x;
+   x = 100;
+   console.log(x);
+   ```
+5. Predict the output:
+   ```js
+   let p = 15;
+   let q = p;
+   q = 30;
+   console.log(p, q);
+   ```
+
+---
+
+### 2. Add and Assign `+=`
+1. A player’s score is `80`. He scores `25` more points. Update the score using `+=`.  
+2. A wallet has ₹1500. Cashback of ₹120 is added. Update the balance using `+=`.  
+3. Predict the output:
+   ```js
+   let count = 10;
+   count += 5;
+   console.log(count);
+   ```
+4. Predict the output:
+   ```js
+   let msg = "Good";
+   msg += " Morning";
+   console.log(msg);
+   ```
+5. What is the final value after `let n = 20; n += "5";`? Explain.
+
+---
+
+### 3. Subtract and Assign `-=`
+1. Health is `100`. Player takes `35` damage. Update health using `-=`.  
+2. Stock of 300 items is reduced by 45 after a sale. Update using `-=`.  
+3. Predict the output:
+   ```js
+   let lives = 5;
+   lives -= 2;
+   console.log(lives);
+   ```
+4. Predict the output:
+   ```js
+   let num = "40";
+   num -= 15;
+   console.log(num);
+   ```
+5. What is the result of `let x = "abc"; x -= 5;`? Explain.
+
+---
+
+### 4. Multiply and Assign `*=`
+1. Price of an item is ₹500. Apply 18% GST using `*= 1.18`.  
+2. A quantity of 8 is tripled. Update using `*=`.  
+3. Predict the output:
+   ```js
+   let amount = 200;
+   amount *= 1.1;
+   console.log(amount);
+   ```
+4. Predict the output:
+   ```js
+   let val = "7";
+   val *= 3;
+   console.log(val);
+   ```
+5. What is the result of `let y = "hello"; y *= 2;`? Explain.
+
+---
+
+### 5. Divide and Assign `/=`
+1. Total of 180 chocolates is shared among 6 children. Update using `/=`.  
+2. Distance of 300 km is covered in 5 hours. Find average speed using `/=`.  
+3. Predict the output:
+   ```js
+   let total = 400;
+   total /= 8;
+   console.log(total);
+   ```
+4. Predict the output:
+   ```js
+   let num = "100";
+   num /= 4;
+   console.log(num);
+   ```
+5. What is the result of `let z = 50; z /= 0;`? Explain.
+
+---
+
+### 6. Modulus and Assign `%=`
+1. Number 47 is divided by 6. Store only the remainder using `%=`.  
+2. Counter is at 23. Keep only the remainder when divided by 12 using `%=`.  
+3. Predict the output:
+   ```js
+   let num = 29;
+   num %= 5;
+   console.log(num);
+   ```
+4. Predict the output:
+   ```js
+   let x = "17";
+   x %= 3;
+   console.log(x);
+   ```
+5. What is the result of `let m = 15; m %= 0;`? Explain.
+
+---
+
+### 7. Exponentiation and Assign `**=`
+1. Side of a cube is 5. Update it to get the volume using `**= 3`.  
+2. Number 4 needs to be squared. Use `**= 2`.  
+3. Predict the output:
+   ```js
+   let base = 2;
+   base **= 5;
+   console.log(base);
+   ```
+4. Predict the output:
+   ```js
+   let n = 4;
+   n **= 0.5;
+   console.log(n);
+   ```
+5. What is the result of `let p = 2; p **= -1;`? Explain.
+
+---
+
+## C] Comparison Operators
+
+### 1. Loose Equality `==`
+1. Check whether the string `"25"` is loosely equal to the number `25`.  
+2. Check if `0 == false` returns true or false.  
+3. Predict the output:
+   ```js
+   console.log(10 == "10");
+   console.log(null == undefined);
+   ```
+4. Predict the output:
+   ```js
+   console.log("" == 0);
+   console.log([] == false);
+   ```
+5. Why does `NaN == NaN` return `false`?
+
+---
+
+### 2. Loose Inequality `!=`
+1. Check whether `"18" != 18` returns true or false.  
+2. A password is stored as `"1234"`. User enters `1234` (number). Will `!=` return true?  
+3. Predict the output:
+   ```js
+   console.log(5 != "5");
+   console.log(0 != false);
+   ```
+4. Predict the output:
+   ```js
+   console.log(null != undefined);
+   console.log("" != 0);
+   ```
+5. What does `NaN != NaN` return? Explain.
+
+---
+
+### 3. Strict Equality `===`
+1. Check whether `"25" === 25` returns true or false. Explain why.  
+2. Check if `0 === false` and `null === undefined`.  
+3. Predict the output:
+   ```js
+   console.log(10 === "10");
+   console.log(true === 1);
+   ```
+4. Predict the output:
+   ```js
+   console.log("" === 0);
+   console.log([] === false);
+   ```
+5. Why is `===` preferred over `==` in most real-world code?
+
+---
+
+### 4. Strict Inequality `!==`
+1. Check whether `"18" !== 18` returns true or false.  
+2. Check if `0 !== false` and `null !== undefined`.  
+3. Predict the output:
+   ```js
+   console.log(5 !== "5");
+   console.log(true !== 1);
+   ```
+4. Predict the output:
+   ```js
+   console.log("" !== 0);
+   console.log(NaN !== NaN);
+   ```
+5. Write a condition that checks if a variable `input` is strictly not equal to the string `"0"`.
