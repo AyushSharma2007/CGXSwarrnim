@@ -1,4 +1,4 @@
-## 04 October (Saturday) (Swarrnim)
+##  10 October (Saturday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -8,7 +8,7 @@
 | 2:00–4:00   |HTML(Sumit Sir)       |
 
 
-## 03 October (Friday) (Swarrnim)
+## 09 October (Friday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -19,7 +19,7 @@
 | 3:00–4:00   | Figma(Prabhat Sir)      |
 | 4:30–6:00   | Industry Readiness    |
 
-## 02 October (Thursday) (Swarrnim)
+## 08 October (Thursday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -31,7 +31,7 @@
 | 4:30–7:00   | Industry Readiness    | 
 
 
-## 30 September (Wednesday) (Swarrnim)
+## 07 October (Wednesday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -45,7 +45,7 @@
 
 
 
-## 29 September (Tuesday) (Swarrnim)
+## 06 October (Tuesday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -57,7 +57,7 @@
 | 4:30–7:00   | Industry Readiness    | 
 
 
-## 28 September (Monday) (Swarrnim)
+## 05 October (Monday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -69,19 +69,18 @@
 | 4:30–7:00   | Industry Readiness    | 
 
 
-## 03 October (Saturday) (SU)
+## 10 October (Saturday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
-| 09:30–11:15  | HTML (Sumit Sir)      | 09:30–11:15  | Python (Saurav Sir)   |
-| 11:15–1:00 | Python (Saurav Sir)       | 11:15–1:00 | HTML (Sumit Sir)      |
+| 09:30–11:30  | HTML (Sumit Sir)      | 09:30–11:30  | Maths   |
+| 11:30–1:00 | Maths       | 11:30–1:00 | HTML (Sumit Sir)      |
 | 1:00–2:00  | Break                 | 1:00–2:00  | Break                 |
 | 2:00–3:00   | Javascript (Nikhil Sir)      | 2:00–3:00   | Figma(Prabhat sir)     |
 | 3:00–4:00   | Figma(Prabhat sir)     | 3:00–4:00   | Javascript (Nikhil Sir)       |
-| 4:15–6:30   | Industry Readiness      | 4:15–6:00   | Industry Readiness      |
 
 
-## 02 October (Friday) (SU)
+## 09 October (Friday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
@@ -94,7 +93,7 @@
 | 4:15–6:30   | Industry Readiness  | 4:15–6:00   | Industry Readiness  |
 
 
-## 01 October (Thursday) (SU)
+## 08 October (Thursday) (SU)
 
 | Time            | CG LAB 3                | Time            | CG LAB 4                |
 | --------------- | ----------------------- | --------------- | ----------------------- |
@@ -109,7 +108,7 @@
 
 
 
-## 30 Septembner (Wednesday) (SU)
+## 07 October (Wednesday) (SU)
 
 | Time            | CG LAB 3                | Time            | CG LAB 4                |
 | --------------- | ----------------------- | --------------- | ----------------------- |
@@ -123,7 +122,7 @@
 | 4:15–6:30   | Industry Readiness      | 4:15–6:00   | Industry Readiness      |
 
 
-## 29 September (Tuesday) (SU)
+## 06 October (Tuesday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
@@ -135,7 +134,7 @@
 | 4:00–4:15   | Break                 | 4:00–4:15   | Break                 |
 | 4:15–6:30   | Industry Readiness  | 4:15–6:00   | Industry Readiness  |
 
-## 28 September (Monday) (SU)
+## 05 October (Monday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
