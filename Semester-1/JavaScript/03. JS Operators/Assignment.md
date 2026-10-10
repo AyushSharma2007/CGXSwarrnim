@@ -402,3 +402,117 @@
    console.log(NaN !== NaN);
    ```
 5. Write a condition that checks if a variable `input` is strictly not equal to the string `"0"`.
+
+
+## Part C] Relational Operator
+
+### 5. Greater Than `>`
+1. A student’s marks are 78. The passing marks are 40. Check whether the student has scored more than the passing marks.  
+2. Temperature today is 35°C and yesterday it was 28°C. Check if today is hotter.  
+3. Predict the output:
+   ```js
+   console.log(15 > 10);
+   console.log(10 > 15);
+   console.log(10 > 10);
+   ```
+4. Predict the output:
+   ```js
+   console.log("20" > 15);
+   console.log("5" > "10");
+   console.log("abc" > 10);
+   ```
+5. What is the result of `null > 0` and `undefined > 0`? Explain.  
+6. A shop has 120 items in stock. A customer wants to buy 85 items. Write a condition using `>` to check if stock is sufficient.  
+7. Predict and explain:
+   ```js
+   console.log(true > false);
+   console.log("10" > "2");
+   console.log(NaN > 5);
+   ```
+
+### 6. Less Than `<`
+1. A box can hold maximum 50 kg. Current weight is 42 kg. Check if more items can still be added.  
+2. Age of a person is 16. Minimum age required is 18. Check if the person is underage.  
+3. Predict the output:
+   ```js
+   console.log(8 < 12);
+   console.log(20 < 10);
+   console.log(7 < 7);
+   ```
+4. Predict the output:
+   ```js
+   console.log("8" < 10);
+   console.log("20" < "3");
+   console.log("hello" < 5);
+   ```
+5. What is the result of `null < 0` and `undefined < 0`? Explain.  
+6. A tank capacity is 500 litres. Current water level is 375 litres. Write a condition using `<` to check if it is not full.  
+7. Predict and explain:
+   ```js
+   console.log(false < true);
+   console.log("5" < "15");
+   console.log(NaN < 10);
+   ```
+
+### 7. Greater Than or Equal To `>=`
+1. Minimum marks required for distinction is 75. A student scored 75. Check if the student gets distinction.  
+2. Ticket price is ₹300. A person has ₹300. Check if they can buy the ticket.  
+3. Predict the output:
+   ```js
+   console.log(25 >= 25);
+   console.log(30 >= 25);
+   console.log(20 >= 25);
+   ```
+4. Predict the output:
+   ```js
+   console.log("25" >= 25);
+   console.log("10" >= "2");
+   console.log(null >= 0);
+   ```
+5. What is the result of `undefined >= 0`? Explain.  
+6. A lift can carry maximum 8 people. Currently 8 people are inside. Write a condition using `>=` to check if the lift is full or overloaded.  
+7. Predict and explain:
+   ```js
+   console.log(true >= 1);
+   console.log("" >= 0);
+   console.log(NaN >= NaN);
+   ```
+
+### 8. Less Than or Equal To `<=`
+1. Maximum speed limit is 60 km/h. A vehicle is travelling at 60 km/h. Check if it is within the limit.  
+2. A student needs at least 40 marks to pass. He scored 39. Check if he has failed.  
+3. Predict the output:
+   ```js
+   console.log(15 <= 20);
+   console.log(20 <= 15);
+   console.log(15 <= 15);
+   ```
+4. Predict the output:
+   ```js
+   console.log("15" <= 20);
+   console.log("30" <= "5");
+   console.log(null <= 0);
+   ```
+5. What is the result of `undefined <= 0`? Explain.  
+6. A bag can hold maximum 10 books. Currently it has 10 books. Write a condition using `<=` to check if more books can be added.  
+7. Predict and explain:
+   ```js
+   console.log(false <= 0);
+   console.log("" <= 0);
+   console.log(NaN <= 5);
+   ```
+
+### Mixed Practice (>, <, >=, <=)
+1. Write expressions to check:
+   - Whether age `18` is greater than or equal to voting age `18`.
+   - Whether temperature `32` is less than `35`.
+   - Whether score `90` is greater than `85`.
+2. Predict the outputs:
+   ```js
+   console.log(10 > 5 && 5 < 10);
+   console.log("10" >= 10);
+   console.log(null <= undefined);
+   console.log("5" < "10" && 5 > 2);
+   ```
+3. A product costs ₹499. A customer has ₹500. Write conditions using `>=` and `<` to decide if the customer can buy it and if any change will be left.  
+4. Explain why `"10" > "2"` is `false` but `10 > 2` is `true`.
