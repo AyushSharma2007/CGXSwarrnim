@@ -73,8 +73,9 @@
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
-| 09:30–11:30  | HTML (Sumit Sir)      | 09:30–11:30  | Maths   |
-| 11:30–1:00 | Maths       | 11:30–1:00 | HTML (Sumit Sir)      |
+| 09:30–10:30  | Python (saurabh Sir)      | 09:30–10:30  | Maths   |
+| 10:30–11:30 | Maths       | 10:30–11:30 | HTML (Sumit Sir)      |
+| 11:30–1:00 | HTML(Sumit sir)       | 11:30–1:00 | Python (Saurabh Sir)      |
 | 1:00–2:00  | Break                 | 1:00–2:00  | Break                 |
 | 2:00–3:00   | Javascript (Nikhil Sir)      | 2:00–3:00   | Figma(Prabhat sir)     |
 | 3:00–4:00   | Figma(Prabhat sir)     | 3:00–4:00   | Javascript (Nikhil Sir)       |
