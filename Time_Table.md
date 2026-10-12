@@ -1,4 +1,4 @@
-##  10 October (Saturday) (Swarrnim)
+##  17 October (Saturday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -8,7 +8,7 @@
 | 2:00–4:00   |HTML(Sumit Sir)       |
 
 
-## 09 October (Friday) (Swarrnim)
+## 16 October (Friday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -19,7 +19,7 @@
 | 3:00–4:00   | Figma(Prabhat Sir)      |
 | 4:30–6:00   | Industry Readiness    |
 
-## 08 October (Thursday) (Swarrnim)
+## 15 October (Thursday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -31,7 +31,7 @@
 | 4:30–7:00   | Industry Readiness    | 
 
 
-## 07 October (Wednesday) (Swarrnim)
+## 14 October (Wednesday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -45,7 +45,7 @@
 
 
 
-## 06 October (Tuesday) (Swarrnim)
+## 13 October (Tuesday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -57,7 +57,7 @@
 | 4:30–7:00   | Industry Readiness    | 
 
 
-## 05 October (Monday) (Swarrnim)
+## 12 October (Monday) (Swarrnim)
 
 | Time        | CG LAB 1                        
 | ----------- | ---------------------
@@ -69,7 +69,7 @@
 | 4:30–7:00   | Industry Readiness    | 
 
 
-## 10 October (Saturday) (SU)
+## 17 October (Saturday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
@@ -81,7 +81,7 @@
 | 3:00–4:00   | Figma(Prabhat sir)     | 3:00–4:00   | Javascript (Nikhil Sir)       |
 
 
-## 09 October (Friday) (SU)
+## 16 October (Friday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
@@ -94,7 +94,7 @@
 | 4:15–6:30   | Industry Readiness  | 4:15–6:00   | Industry Readiness  |
 
 
-## 08 October (Thursday) (SU)
+## 15 October (Thursday) (SU)
 
 | Time            | CG LAB 3                | Time            | CG LAB 4                |
 | --------------- | ----------------------- | --------------- | ----------------------- |
@@ -109,7 +109,7 @@
 
 
 
-## 07 October (Wednesday) (SU)
+## 14 October (Wednesday) (SU)
 
 | Time            | CG LAB 3                | Time            | CG LAB 4                |
 | --------------- | ----------------------- | --------------- | ----------------------- |
@@ -123,7 +123,7 @@
 | 4:15–6:30   | Industry Readiness      | 4:15–6:00   | Industry Readiness      |
 
 
-## 06 October (Tuesday) (SU)
+## 13 October (Tuesday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
@@ -135,15 +135,15 @@
 | 4:00–4:15   | Break                 | 4:00–4:15   | Break                 |
 | 4:15–6:30   | Industry Readiness  | 4:15–6:00   | Industry Readiness  |
 
-## 05 October (Monday) (SU)
+## 12 October (Monday) (SU)
 
 | Time        | CG LAB 3              | Time        | CG LAB 4             |
 | ----------- | --------------------- | ----------- | --------------------- |
-| 09:30–11:15  | Figma (Prabhat Sir)      | 09:30–11:15  | Python(Saurav Sir)    |
-| 11:15–1:00 | Python(Saurav sir)       | 11:15–1:00 | Figma (Prabhat Sir)      |
+| 09:30–11:15  | HTML (Sumit Sir)      | 09:30–11:15  | Python(Saurav Sir)    |
+| 11:15–1:00 | Python(Saurav sir)       | 11:15–1:00 | HTML (Sumit Sir)      |
 | 1:00–2:00  | Break                 | 1:00–2:00  | Break                 |
-| 2:00–3:00   | Javascript (Nikhil Sir)      | 2:00–3:00   | Github(Saurav sir)     |
-| 3:00–4:00   | Github(Saurav sir)    | 3:00–4:00   | Javascript (Nikhil Sir)       |
+| 2:00–3:00   | Javascript (Nikhil Sir)      | 2:00–3:00   | Figma(Prabhat sir)     |
+| 3:00–4:00   | Figma(Prabhat sir)    | 3:00–4:00   | Javascript (Nikhil Sir)       |
 | 4:00–4:15   | Break                 | 4:00–4:15   | Break                 |
 | 4:15–6:30   | Industry Readiness  | 4:15–6:00   | Industry Readiness  |
 
