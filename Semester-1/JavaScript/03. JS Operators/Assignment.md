@@ -404,7 +404,7 @@
 5. Write a condition that checks if a variable `input` is strictly not equal to the string `"0"`.
 
 
-## Part C] Relational Operator
+## Part D] Relational Operator
 
 ### 5. Greater Than `>`
 1. A student’s marks are 78. The passing marks are 40. Check whether the student has scored more than the passing marks.  
@@ -516,3 +516,79 @@
    ```
 3. A product costs ₹499. A customer has ₹500. Write conditions using `>=` and `<` to decide if the customer can buy it and if any change will be left.  
 4. Explain why `"10" > "2"` is `false` but `10 > 2` is `true`.
+
+
+## Part E]: Increment / Decrement Operators (`++` / `--`)
+
+### Part a:
+
+1. A counter starts at `5`. Use the increment operator to increase it by 1 and print the new value.  
+2. A player has `3` lives. Use the decrement operator to reduce one life and print the remaining lives.  
+3. Start with `score = 10`. Increase the score using `++` and print it.  
+4. Start with `items = 8`. Decrease the items using `--` and print it.  
+5. Declare `count = 0`. Increment it twice and print the final value.
+
+### Part b:
+
+6. Start with `x = 5`.  
+   - Create `y = x++`  
+   - Print both `x` and `y`.  
+   Explain why the values are different.
+
+7. Start with `a = 5`.  
+   - Create `b = ++a`  
+   - Print both `a` and `b`.  
+   Explain the difference from the previous question.
+
+8. Start with `lives = 3`.  
+   - Use post-decrement (`lives--`) and store the result in `previousLives`.  
+   - Print both variables.
+
+9. Start with `attempts = 0`.  
+   - Use pre-increment (`++attempts`) and store the result in `currentAttempts`.  
+   - Print both variables.
+
+10. Start with `points = 100`.  
+    - Increase it using `++`  
+    - Then decrease it using `--`  
+    - Print the final value.
+
+### Part c:
+
+11. Predict the output:
+    ```js
+    let x = 10;
+    let y = x++;
+    let z = ++x;
+    console.log(x, y, z);
+    ```
+
+12. Predict the output:
+    ```js
+    let a = 5;
+    let b = a-- + ++a;
+    console.log(a, b);
+    ```
+
+13. Predict the output:
+    ```js
+    let m = 7;
+    let n = --m + m++;
+    console.log(m, n);
+    ```
+
+14. Predict the output:
+    ```js
+    let p = 3;
+    let q = p++ + ++p + p;
+    console.log(p, q);
+    ```
+
+15. Predict the output:
+    ```js
+    let val = 0;
+    val = val++ + ++val;
+    console.log(val);
+    ```
+
+---
