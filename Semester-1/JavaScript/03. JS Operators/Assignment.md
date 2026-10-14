@@ -758,3 +758,282 @@ Write a JavaScript program for each:
 
 ***
 
+---
+
+## Part G]: `typeof` Operator
+----
+### Part a: 
+
+1. Declare a variable `name = "Rahul"` and print its type using `typeof`.  
+2. Declare a variable `age = 25` and print its type.  
+3. Declare a variable `isStudent = true` and print its type.  
+4. Declare a variable `city` (without assigning a value) and print its type.  
+5. Print the type of the value `null`.
+
+### Part b:
+
+6. Predict the output:
+   ```js
+   console.log(typeof 42);
+   console.log(typeof "Hello");
+   console.log(typeof true);
+   console.log(typeof undefined);
+   ```
+
+7. Predict the output:
+   ```js
+   console.log(typeof null);
+   console.log(typeof {});
+   console.log(typeof []);
+   ```
+
+8. Predict the output:
+   ```js
+   console.log(typeof NaN);
+   console.log(typeof Infinity);
+   console.log(typeof function(){});
+   ```
+
+9. Create three variables:
+   - `price = 99.99`
+   - `message = "Welcome"`
+   - `isActive = false`  
+   Print the type of each variable with a clear message.
+
+10. Predict the output:
+    ```js
+    let value = null;
+    console.log(typeof value);
+    console.log(typeof value === "object");
+    ```
+
+### Part c:
+
+11. Predict the output:
+    ```js
+    console.log(typeof typeof 100);
+    console.log(typeof typeof "Hi");
+    console.log(typeof typeof true);
+    ```
+
+12. Predict the output:
+    ```js
+    let a = 10;
+    let b = "10";
+    console.log(typeof a === typeof b);
+    console.log(typeof a == typeof b);
+    ```
+
+13. Predict the output:
+    ```js
+    console.log(typeof null === "object");
+    console.log(typeof [] === "object");
+    console.log(typeof {} === "object");
+    ```
+
+14. Predict the output:
+    ```js
+    let x;
+    console.log(typeof x);
+    x = null;
+    console.log(typeof x);
+    x = 0;
+    console.log(typeof x);
+    ```
+
+15. Predict the output:
+    ```js
+    console.log(typeof NaN === "number");
+    console.log(typeof Infinity === "number");
+    console.log(typeof (1 / 0));
+    ```
+
+---
+
+## Part H]: Type Coercion
+
+### Part a:
+
+1. Convert the string `"25"` into a number using `Number()` and add `10` to it. Print the result.  
+2. Convert the number `100` into a string using `String()` and join it with `" rupees"`. Print the result.  
+3. Convert the value `0` into a boolean using `Boolean()` and print it.  
+4. Convert the value `"Hello"` into a boolean and print it.  
+5. Use the unary `+` operator to convert `"50"` into a number and multiply it by `2`.
+
+### Part b:
+
+6. Predict the output:
+   ```js
+   console.log("10" - 5);
+   console.log("10" + 5);
+   console.log("10" * 2);
+   console.log("10" / 2);
+   ```
+
+7. Predict the output:
+   ```js
+   console.log("5" - "2");
+   console.log("5" + "2");
+   console.log("5" * "2");
+   console.log("5" / "2");
+   ```
+
+8. Predict the output:
+   ```js
+   console.log(Number("123"));
+   console.log(Number("123abc"));
+   console.log(Number(true));
+   console.log(Number(false));
+   console.log(Number(null));
+   console.log(Number(undefined));
+   ```
+
+9. Predict the output:
+   ```js
+   console.log(Boolean(0));
+   console.log(Boolean(""));
+   console.log(Boolean("0"));
+   console.log(Boolean([]));
+   console.log(Boolean({}));
+   console.log(Boolean(null));
+   ```
+
+10. Predict the output:
+    ```js
+    console.log(String(100));
+    console.log(String(true));
+    console.log(String(null));
+    console.log(String(undefined));
+    console.log(100 + "");
+    ```
+
+### Part c:
+
+11. Predict the output:
+    ```js
+    console.log("5" + 3 + 2);
+    console.log(5 + 3 + "2");
+    console.log("5" - 3 + 2);
+    console.log(5 - "3" + "2");
+    ```
+
+12. Predict the output:
+    ```js
+    console.log(true + true);
+    console.log(true + false);
+    console.log(true + "false");
+    console.log(false + "true");
+    ```
+
+13. Predict the output:
+    ```js
+    console.log(null + 5);
+    console.log(undefined + 5);
+    console.log(null + "5");
+    console.log(undefined + "5");
+    ```
+
+14. Predict the output:
+    ```js
+    console.log([] + []);
+    console.log([] + {});
+    console.log({} + []);
+    console.log({} + {});
+    ```
+
+15. Predict the output:
+    ```js
+    let a = "10";
+    let b = 5;
+    let c = a + b;
+    let d = a - b;
+    let e = +a + b;
+    console.log(c, typeof c);
+    console.log(d, typeof d);
+    console.log(e, typeof e);
+    ```
+
+16. Predict the output:
+    ```js
+    console.log(!!"Hello");
+    console.log(!!"");
+    console.log(!!0);
+    console.log(!!1);
+    console.log(!!null);
+    console.log(!!undefined);
+    ```
+
+17. Predict the output:
+    ```js
+    console.log(Number(""));
+    console.log(Number(" "));
+    console.log(Number("0"));
+    console.log(Number("  25  "));
+    console.log(Number("25px"));
+    ```
+
+18. Predict the output:
+    ```js
+    let val1 = "5";
+    let val2 = 2;
+    console.log(val1 + val2);
+    console.log(+val1 + val2);
+    console.log(val1 - val2);
+    console.log(val1 * val2);
+    console.log(val1 / val2);
+    ```
+
+---
+
+# Bonus Mixed Practice Questions:
+
+19. Predict the output:
+    ```js
+    let count = 5;
+    console.log(typeof count++);
+    console.log(count);
+    console.log(typeof ++count);
+    console.log(count);
+    ```
+
+20. Predict the output:
+    ```js
+    let x = "10";
+    let y = ++x;
+    console.log(x, y, typeof x, typeof y);
+    ```
+
+21. Predict the output:
+    ```js
+    let a = "5";
+    let b = a++;
+    console.log(a, b, typeof a, typeof b);
+    ```
+
+22. Predict the output:
+    ```js
+    console.log(typeof (1 + "2"));
+    console.log(typeof (1 - "2"));
+    console.log(typeof (1 * "2"));
+    console.log(typeof (1 / "2"));
+    ```
+
+23. Predict the output:
+    ```js
+    let val = null;
+    console.log(typeof val);
+    console.log(val + 1);
+    console.log(val - 1);
+    console.log(val * 1);
+    console.log(Boolean(val));
+    ```
+
+---
+
+**Remember**  
+- Focus on understanding **when** and **why** JavaScript converts types automatically.  
+- Pay special attention to the difference between `+` (concatenation) and other arithmetic operators.  
+- Remember: `typeof null` is a famous historical quirk.  
+- Practice predicting outputs before running the code — this builds strong intuition.
+
+
