@@ -368,3 +368,966 @@ words:
     and after `print()`?
 4.  How can you recognize a possible infinite loop by reading the code?
 5.  Why should you trace the condition again after every update?
+
+
+------------------------------------------------------------------------
+
+## Type 2: Basic While Loop Problems — Statement Based
+
+**Instructions:** Solve each problem using **one `while` loop only**. Do not use lists, nested loops, or functions. Read the input and output format carefully. Test cases show sample inputs and the expected outputs.
+
+### Level 1: Basic Counting
+
+### Q21. Print Numbers from 1 to N
+
+**Task:** Take a positive integer `N` and print all numbers from `1` to `N`, each on a new line.
+
+**Input:**
+```text
+5
+```
+
+**Expected Output:**
+```text
+1
+2
+3
+4
+5
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `3` | `1`<br>`2`<br>`3` |
+| `1` | `1` |
+| `6` | `1`<br>`2`<br>`3`<br>`4`<br>`5`<br>`6` |
+
+### Q22. Print Numbers from N to 1
+
+**Task:** Take a positive integer `N` and print the numbers in descending order, from `N` to `1`.
+
+**Input:**
+```text
+5
+```
+
+**Expected Output:**
+```text
+5
+4
+3
+2
+1
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `3` | `3`<br>`2`<br>`1` |
+| `1` | `1` |
+| `4` | `4`<br>`3`<br>`2`<br>`1` |
+
+### Q23. Print Even Numbers up to N
+
+**Task:** Take a positive integer `N` and print all even numbers from `2` up to `N`. If `N` is odd, stop at the last even number below it.
+
+**Input:**
+```text
+10
+```
+
+**Expected Output:**
+```text
+2
+4
+6
+8
+10
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `7` | `2`<br>`4`<br>`6` |
+| `4` | `2`<br>`4` |
+| `1` | No output |
+
+### Q24. Print Odd Numbers up to N
+
+**Task:** Take a positive integer `N` and print all odd numbers from `1` up to `N`.
+
+**Input:**
+```text
+9
+```
+
+**Expected Output:**
+```text
+1
+3
+5
+7
+9
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `6` | `1`<br>`3`<br>`5` |
+| `5` | `1`<br>`3`<br>`5` |
+| `1` | `1` |
+
+### Q25. Print Multiples of a Number
+
+**Task:** Take two positive integers, `K` and `N`. Print the multiples of `K` that are less than or equal to `N`.
+
+**Input:**
+```text
+K = 3
+N = 15
+```
+
+**Expected Output:**
+```text
+3
+6
+9
+12
+15
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `K = 4, N = 18` | `4`<br>`8`<br>`12`<br>`16` |
+| `K = 5, N = 12` | `5`<br>`10` |
+| `K = 7, N = 6` | No output |
+
+------------------------------------------------------------------------
+
+### Level 2: Counting with Small Changes
+
+### Q26. Multiplication Table
+
+**Task:** Take an integer `N` and print its multiplication table from `N × 1` to `N × 10`.
+
+**Input:**
+```text
+4
+```
+
+**Expected Output:**
+```text
+4 x 1 = 4
+4 x 2 = 8
+4 x 3 = 12
+4 x 4 = 16
+4 x 5 = 20
+4 x 6 = 24
+4 x 7 = 28
+4 x 8 = 32
+4 x 9 = 36
+4 x 10 = 40
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `2` | Print the table of 2 from `2 x 1 = 2` to `2 x 10 = 20` |
+| `5` | Print the table of 5 from `5 x 1 = 5` to `5 x 10 = 50` |
+
+### Q27. Count by a Given Step
+
+**Task:** Take two positive integers, `START` and `STEP`. Starting from `START`, print the next five values, adding `STEP` after each value. Print exactly five numbers.
+
+**Input:**
+```text
+START = 2
+STEP = 3
+```
+
+**Expected Output:**
+```text
+2
+5
+8
+11
+14
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `START = 1, STEP = 2` | `1`<br>`3`<br>`5`<br>`7`<br>`9` |
+| `START = 10, STEP = 5` | `10`<br>`15`<br>`20`<br>`25`<br>`30` |
+
+### Q28. Sum of Numbers from 1 to N
+
+**Task:** Take a positive integer `N` and calculate the sum of all integers from `1` to `N`. Print only the final sum.
+
+**Input:**
+```text
+5
+```
+
+**Expected Output:**
+```text
+15
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `3` | `6` |
+| `1` | `1` |
+| `10` | `55` |
+
+### Q29. Sum of Even Numbers up to N
+
+**Task:** Take a positive integer `N` and calculate the sum of all even numbers from `2` up to `N`.
+
+**Input:**
+```text
+10
+```
+
+**Expected Output:**
+```text
+30
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `6` | `12` |
+| `9` | `20` |
+| `1` | `0` |
+
+### Q30. Sum of Odd Numbers up to N
+
+**Task:** Take a positive integer `N` and calculate the sum of all odd numbers from `1` up to `N`.
+
+**Input:**
+```text
+7
+```
+
+**Expected Output:**
+```text
+16
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `5` | `9` |
+| `8` | `16` |
+| `1` | `1` |
+
+------------------------------------------------------------------------
+
+### Level 3: Simple Repeated Calculations
+
+### Q31. Calculate the Total Cost
+
+**Task:** A shop sells one notebook for `PRICE` rupees. Take the price of one notebook and the number of notebooks purchased, `QUANTITY`. Calculate the total cost using repeated addition.
+
+**Input:**
+```text
+PRICE = 20
+QUANTITY = 4
+```
+
+**Expected Output:**
+```text
+80
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `PRICE = 15, QUANTITY = 3` | `45` |
+| `PRICE = 7, QUANTITY = 5` | `35` |
+| `PRICE = 50, QUANTITY = 1` | `50` |
+
+### Q32. Calculate Total Savings
+
+**Task:** A student saves the same amount of money every day. Take `DAILY_SAVING` and `DAYS`. Calculate the total amount saved after that many days using a loop.
+
+**Input:**
+```text
+DAILY_SAVING = 25
+DAYS = 6
+```
+
+**Expected Output:**
+```text
+150
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `DAILY_SAVING = 10, DAYS = 7` | `70` |
+| `DAILY_SAVING = 50, DAYS = 2` | `100` |
+| `DAILY_SAVING = 12, DAYS = 1` | `12` |
+
+### Q33. Calculate a Number Raised to a Power
+
+**Task:** Take two non-negative integers, `BASE` and `POWER`. Calculate `BASE` raised to `POWER` using repeated multiplication. Assume `POWER` is between `0` and `8`.
+
+**Input:**
+```text
+BASE = 3
+POWER = 4
+```
+
+**Expected Output:**
+```text
+81
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `BASE = 2, POWER = 3` | `8` |
+| `BASE = 5, POWER = 1` | `5` |
+| `BASE = 7, POWER = 0` | `1` |
+
+### Q34. Calculate Factorial
+
+**Task:** Take a non-negative integer `N` and calculate its factorial. The factorial of `N` is the product of all integers from `1` to `N`. Remember that `0! = 1`.
+
+**Input:**
+```text
+5
+```
+
+**Expected Output:**
+```text
+120
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `3` | `6` |
+| `4` | `24` |
+| `0` | `1` |
+
+### Q35. Find the Sum from START to END
+
+**Task:** Take two integers, `START` and `END`, where `START` is less than or equal to `END`. Calculate the sum of all integers from `START` through `END`, including both endpoints.
+
+**Input:**
+```text
+START = 3
+END = 7
+```
+
+**Expected Output:**
+```text
+25
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `START = 1, END = 4` | `10` |
+| `START = 5, END = 5` | `5` |
+| `START = 10, END = 12` | `33` |
+
+------------------------------------------------------------------------
+
+### Level 4: Read the Condition Carefully
+
+### Q36. Count Down by Two
+
+**Task:** Take a positive even integer `N`. Print numbers from `N` down to `2`, decreasing by `2` each time.
+
+**Input:**
+```text
+10
+```
+
+**Expected Output:**
+```text
+10
+8
+6
+4
+2
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `6` | `6`<br>`4`<br>`2` |
+| `2` | `2` |
+| `12` | `12`<br>`10`<br>`8`<br>`6`<br>`4`<br>`2` |
+
+### Q37. Repeatedly Divide by Two
+
+**Task:** Take a positive integer `N`. Print the value of `N` after repeatedly applying integer division by `2`. Continue while the value is greater than `0`. Print each new value after dividing.
+
+**Input:**
+```text
+20
+```
+
+**Expected Output:**
+```text
+10
+5
+2
+1
+0
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `8` | `4`<br>`2`<br>`1`<br>`0` |
+| `5` | `2`<br>`1`<br>`0` |
+| `2` | `1`<br>`0` |
+
+### Q38. Count How Many Steps Are Needed
+
+**Task:** Start with a positive integer `N`. In each step, subtract `3` from the number. Continue until the value becomes less than or equal to `0`. Print the number of steps taken.
+
+**Input:**
+```text
+N = 11
+```
+
+**Expected Output:**
+```text
+4
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `N = 10` | `4` |
+| `N = 6` | `2` |
+| `N = 2` | `1` |
+
+### Q39. Save Until the Target Is Reached
+
+**Task:** A student already has `SAVED` rupees and adds `DAILY_AMOUNT` rupees each day. Calculate how many days are needed for the savings to become greater than or equal to `TARGET`. Assume `SAVED` is less than `TARGET` and `DAILY_AMOUNT` is positive.
+
+**Input:**
+```text
+SAVED = 20
+DAILY_AMOUNT = 15
+TARGET = 70
+```
+
+**Expected Output:**
+```text
+4
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `SAVED = 0, DAILY_AMOUNT = 10, TARGET = 35` | `4` |
+| `SAVED = 25, DAILY_AMOUNT = 25, TARGET = 75` | `2` |
+| `SAVED = 5, DAILY_AMOUNT = 7, TARGET = 20` | `3` |
+
+### Q40. Print a Number Sequence in Reverse Steps
+
+**Task:** Take two positive integers, `START` and `STEP`, where `START` is divisible by `STEP`. Print values starting from `START`, subtracting `STEP` each time, and stop after printing `0`.
+
+**Input:**
+```text
+START = 20
+STEP = 5
+```
+
+**Expected Output:**
+```text
+20
+15
+10
+5
+0
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `START = 12, STEP = 3` | `12`<br>`9`<br>`6`<br>`3`<br>`0` |
+| `START = 8, STEP = 2` | `8`<br>`6`<br>`4`<br>`2`<br>`0` |
+| `START = 9, STEP = 3` | `9`<br>`6`<br>`3`<br>`0` |
+
+------------------------------------------------------------------------
+
+**Reminder:** Use one `while` loop per question. Focus on initializing variables, checking the condition, updating the variable, and deciding when the loop should stop.
+
+
+------------------------------------------------------------------------
+
+## Type 3: Factorial and Number & Digit Logic
+
+**Instructions:** Solve each problem using a single `while` loop. Do not use lists, nested loops, or functions. Assume number inputs are non-negative unless the statement says positive. Read each test case carefully and handle `0` where required.
+
+### Level 1: Basic Digit Logic
+
+### Q41. Count the Digits
+
+**Task:** Take a non-negative integer `N` and count how many digits it contains. Treat `0` as a one-digit number.
+
+**Input:**
+```text
+58321
+```
+
+**Expected Output:**
+```text
+5
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `58321` | `5` |
+| `700` | `3` |
+| `0` | `1` |
+| `9` | `1` |
+
+### Q42. Find the Sum of Digits
+
+**Task:** Take a non-negative integer and calculate the sum of its digits.
+
+**Input:**
+```text
+583
+```
+
+**Expected Output:**
+```text
+16
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583` | `16` |
+| `204` | `6` |
+| `999` | `27` |
+| `0` | `0` |
+
+### Q43. Reverse a Number
+
+**Task:** Take a non-negative integer and print its digits in reverse order as a number. Leading zeroes in the reversed result are not displayed.
+
+**Input:**
+```text
+5830
+```
+
+**Expected Output:**
+```text
+385
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583` | `385` |
+| `1204` | `4021` |
+| `700` | `7` |
+| `0` | `0` |
+
+### Q44. Find the Product of Digits
+
+**Task:** Take a non-negative integer and calculate the product of all its digits. The product of the digits of `0` is `0`.
+
+**Input:**
+```text
+234
+```
+
+**Expected Output:**
+```text
+24
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `234` | `24` |
+| `105` | `0` |
+| `777` | `343` |
+| `0` | `0` |
+
+### Q45. Print Digits from Right to Left
+
+**Task:** Take a positive integer and print one digit per line, starting from the rightmost digit and moving left.
+
+**Input:**
+```text
+58321
+```
+
+**Expected Output:**
+```text
+1
+2
+3
+8
+5
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `407` | `7`<br>`0`<br>`4` |
+| `91` | `1`<br>`9` |
+| `6` | `6` |
+
+------------------------------------------------------------------------
+
+### Level 2: Work with Specific Digits
+
+### Q46. Find the First and Last Digit
+
+**Task:** Take a positive integer and print its first digit and last digit on separate lines. The first digit is the leftmost digit.
+
+**Input:**
+```text
+58321
+```
+
+**Expected Output:**
+```text
+First digit: 5
+Last digit: 1
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `704` | `First digit: 7`<br>`Last digit: 4` |
+| `9` | `First digit: 9`<br>`Last digit: 9` |
+| `1200` | `First digit: 1`<br>`Last digit: 0` |
+
+### Q47. Count Even Digits
+
+**Task:** Take a non-negative integer and count how many of its digits are even. Zero is an even digit.
+
+**Input:**
+```text
+583204
+```
+
+**Expected Output:**
+```text
+4
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583204` | `4` |
+| `13579` | `0` |
+| `2468` | `4` |
+| `0` | `1` |
+
+### Q48. Count Odd Digits
+
+**Task:** Take a non-negative integer and count how many of its digits are odd.
+
+**Input:**
+```text
+583204
+```
+
+**Expected Output:**
+```text
+2
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583204` | `2` |
+| `2468` | `0` |
+| `13579` | `5` |
+| `0` | `0` |
+
+### Q49. Find the Sum of Even Digits
+
+**Task:** Take a non-negative integer and calculate the sum of only its even digits.
+
+**Input:**
+```text
+583204
+```
+
+**Expected Output:**
+```text
+14
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583204` | `14` |
+| `2468` | `20` |
+| `13579` | `0` |
+| `0` | `0` |
+
+### Q50. Find the Largest Digit
+
+**Task:** Take a non-negative integer and find the largest digit present in it.
+
+**Input:**
+```text
+583204
+```
+
+**Expected Output:**
+```text
+8
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583204` | `8` |
+| `1947` | `9` |
+| `222` | `2` |
+| `0` | `0` |
+
+### Q51. Find the Smallest Digit
+
+**Task:** Take a non-negative integer and find the smallest digit present in it.
+
+**Input:**
+```text
+583204
+```
+
+**Expected Output:**
+```text
+0
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583204` | `0` |
+| `1947` | `1` |
+| `222` | `2` |
+| `8` | `8` |
+
+------------------------------------------------------------------------
+
+### Level 3: Combine Digit Logic
+
+### Q52. Check Whether a Number Is a Palindrome
+
+**Task:** A number is a palindrome if it reads the same from left to right and right to left. Take a non-negative integer and print `Palindrome` or `Not Palindrome`. Do not convert the number to a string.
+
+**Input:**
+```text
+1221
+```
+
+**Expected Output:**
+```text
+Palindrome
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `121` | `Palindrome` |
+| `123` | `Not Palindrome` |
+| `7` | `Palindrome` |
+| `100` | `Not Palindrome` |
+
+### Q53. Count How Many Times a Digit Appears
+
+**Task:** Take a non-negative integer `N` and a digit `D` from `0` to `9`. Count how many times digit `D` appears in `N`.
+
+**Input:**
+```text
+N = 505250
+D = 5
+```
+
+**Expected Output:**
+```text
+3
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `N = 505250, D = 5` | `3` |
+| `N = 12345, D = 7` | `0` |
+| `N = 7007, D = 7` | `2` |
+| `N = 0, D = 0` | `1` |
+
+### Q54. Check Whether All Digits Are the Same
+
+**Task:** Take a positive integer and print `Yes` if every digit is the same; otherwise, print `No`.
+
+**Input:**
+```text
+7777
+```
+
+**Expected Output:**
+```text
+Yes
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `7777` | `Yes` |
+| `7077` | `No` |
+| `5` | `Yes` |
+| `222` | `Yes` |
+
+### Q55. Compare the Sum of First and Last Digits with the Middle Digits' Sum
+
+**Task:** Take a positive integer with at least three digits. Find the sum of its first and last digits. Separately, find the sum of all digits between the first and last digits. Print both sums on separate lines. Do not convert the number to a string.
+
+**Input:**
+```text
+58321
+```
+
+**Expected Output:**
+```text
+First and last digits sum: 6
+Middle digits sum: 13
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `58321` | `First and last digits sum: 6`<br>`Middle digits sum: 13` |
+| `12345` | `First and last digits sum: 6`<br>`Middle digits sum: 9` |
+| `90218` | `First and last digits sum: 17`<br>`Middle digits sum: 3` |
+
+------------------------------------------------------------------------
+
+### Level 4: Factorial Practice
+
+### Q56. Print Factorial Values from 1! to N!
+
+**Task:** Take a positive integer `N`. Print the factorial value for every number from `1` to `N`, one result per line. Use one loop and update the factorial result as the number increases.
+
+**Input:**
+```text
+5
+```
+
+**Expected Output:**
+```text
+1
+2
+6
+24
+120
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `3` | `1`<br>`2`<br>`6` |
+| `4` | `1`<br>`2`<br>`6`<br>`24` |
+| `1` | `1` |
+
+### Q57. Check Whether a Number Is a Factorial Value
+
+**Task:** Take a positive integer `N`. Print `Yes` if `N` is equal to the factorial of some non-negative integer; otherwise, print `No`. Examples of factorial values are `1`, `2`, `6`, `24`, and `120`.
+
+**Input:**
+```text
+24
+```
+
+**Expected Output:**
+```text
+Yes
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `6` | `Yes` |
+| `25` | `No` |
+| `1` | `Yes` |
+| `120` | `Yes` |
+
+### Q58. Find the Largest Factorial Not Greater Than N
+
+**Task:** Take a positive integer `N`. Find the largest factorial value that is less than or equal to `N`. Consider `1` as the starting factorial value.
+
+**Input:**
+```text
+20
+```
+
+**Expected Output:**
+```text
+6
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `5` | `2` |
+| `6` | `6` |
+| `20` | `6` |
+| `100` | `24` |
+
+------------------------------------------------------------------------
+
+**Reminder:** Every question in Type 3 should be solved using a single `while` loop. Use `% 10` to get the last digit and `// 10` to remove the last digit when solving digit-based problems. For factorial questions, keep a running product and update it carefully. Do not use lists, nested loops, or functions.
