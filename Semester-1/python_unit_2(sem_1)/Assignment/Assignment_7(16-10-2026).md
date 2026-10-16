@@ -353,23 +353,6 @@ It produces a syntax error
 
 ``` text
 ```
-
-------------------------------------------------------------------------
-
-### Reflection Questions
-
-After completing the worksheet, answer these questions in your own
-words:
-
-1.  Why must a loop variable often be updated inside a `while` loop?
-2.  Can a `while` loop execute zero times? Give an example from this
-    worksheet.
-3.  What is the difference between updating a variable before `print()`
-    and after `print()`?
-4.  How can you recognize a possible infinite loop by reading the code?
-5.  Why should you trace the condition again after every update?
-
-
 ------------------------------------------------------------------------
 
 ## Type 2: Basic While Loop Problems — Statement Based
