@@ -353,12 +353,28 @@ It produces a syntax error
 
 ``` text
 ```
+
 ------------------------------------------------------------------------
 
+### Reflection Questions
+
+After completing the worksheet, answer these questions in your own
+words:
+
+1.  Why must a loop variable often be updated inside a `while` loop?
+2.  Can a `while` loop execute zero times? Give an example from this
+    worksheet.
+3.  What is the difference between updating a variable before `print()`
+    and after `print()`?
+4.  How can you recognize a possible infinite loop by reading the code?
+5.  Why should you trace the condition again after every update?
+
+
+------------------------------------------------------------------------
 
 ## Type 2: Basic While Loop Problems — Statement Based
 
-**Instructions:** Solve each problem using **one `while` loop only**. Read the input and output format carefully. Test cases show sample inputs and the expected outputs.
+**Instructions:** Solve each problem using **one `while` loop only**. Do not use lists, nested loops, or functions. Read the input and output format carefully. Test cases show sample inputs and the expected outputs.
 
 ### Level 1: Basic Counting
 
@@ -869,3 +885,449 @@ STEP = 5
 ------------------------------------------------------------------------
 
 **Reminder:** Use one `while` loop per question. Focus on initializing variables, checking the condition, updating the variable, and deciding when the loop should stop.
+
+
+------------------------------------------------------------------------
+
+## Type 3: Factorial and Number & Digit Logic
+
+**Instructions:** Solve each problem using a single `while` loop. Do not use lists, nested loops, or functions. Assume number inputs are non-negative unless the statement says positive. Read each test case carefully and handle `0` where required.
+
+### Level 1: Basic Digit Logic
+
+### Q41. Count the Digits
+
+**Task:** Take a non-negative integer `N` and count how many digits it contains. Treat `0` as a one-digit number.
+
+**Input:**
+```text
+58321
+```
+
+**Expected Output:**
+```text
+5
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `58321` | `5` |
+| `700` | `3` |
+| `0` | `1` |
+| `9` | `1` |
+
+### Q42. Find the Sum of Digits
+
+**Task:** Take a non-negative integer and calculate the sum of its digits.
+
+**Input:**
+```text
+583
+```
+
+**Expected Output:**
+```text
+16
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583` | `16` |
+| `204` | `6` |
+| `999` | `27` |
+| `0` | `0` |
+
+### Q43. Reverse a Number
+
+**Task:** Take a non-negative integer and print its digits in reverse order as a number. Leading zeroes in the reversed result are not displayed.
+
+**Input:**
+```text
+5830
+```
+
+**Expected Output:**
+```text
+385
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583` | `385` |
+| `1204` | `4021` |
+| `700` | `7` |
+| `0` | `0` |
+
+### Q44. Find the Product of Digits
+
+**Task:** Take a non-negative integer and calculate the product of all its digits. The product of the digits of `0` is `0`.
+
+**Input:**
+```text
+234
+```
+
+**Expected Output:**
+```text
+24
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `234` | `24` |
+| `105` | `0` |
+| `777` | `343` |
+| `0` | `0` |
+
+### Q45. Print Digits from Right to Left
+
+**Task:** Take a positive integer and print one digit per line, starting from the rightmost digit and moving left.
+
+**Input:**
+```text
+58321
+```
+
+**Expected Output:**
+```text
+1
+2
+3
+8
+5
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `407` | `7`<br>`0`<br>`4` |
+| `91` | `1`<br>`9` |
+| `6` | `6` |
+
+------------------------------------------------------------------------
+
+### Level 2: Work with Specific Digits
+
+### Q46. Find the First and Last Digit
+
+**Task:** Take a positive integer and print its first digit and last digit on separate lines. The first digit is the leftmost digit.
+
+**Input:**
+```text
+58321
+```
+
+**Expected Output:**
+```text
+First digit: 5
+Last digit: 1
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `704` | `First digit: 7`<br>`Last digit: 4` |
+| `9` | `First digit: 9`<br>`Last digit: 9` |
+| `1200` | `First digit: 1`<br>`Last digit: 0` |
+
+### Q47. Count Even Digits
+
+**Task:** Take a non-negative integer and count how many of its digits are even. Zero is an even digit.
+
+**Input:**
+```text
+583204
+```
+
+**Expected Output:**
+```text
+4
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583204` | `4` |
+| `13579` | `0` |
+| `2468` | `4` |
+| `0` | `1` |
+
+### Q48. Count Odd Digits
+
+**Task:** Take a non-negative integer and count how many of its digits are odd.
+
+**Input:**
+```text
+583204
+```
+
+**Expected Output:**
+```text
+2
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583204` | `2` |
+| `2468` | `0` |
+| `13579` | `5` |
+| `0` | `0` |
+
+### Q49. Find the Sum of Even Digits
+
+**Task:** Take a non-negative integer and calculate the sum of only its even digits.
+
+**Input:**
+```text
+583204
+```
+
+**Expected Output:**
+```text
+14
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583204` | `14` |
+| `2468` | `20` |
+| `13579` | `0` |
+| `0` | `0` |
+
+### Q50. Find the Largest Digit
+
+**Task:** Take a non-negative integer and find the largest digit present in it.
+
+**Input:**
+```text
+583204
+```
+
+**Expected Output:**
+```text
+8
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583204` | `8` |
+| `1947` | `9` |
+| `222` | `2` |
+| `0` | `0` |
+
+### Q51. Find the Smallest Digit
+
+**Task:** Take a non-negative integer and find the smallest digit present in it.
+
+**Input:**
+```text
+583204
+```
+
+**Expected Output:**
+```text
+0
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `583204` | `0` |
+| `1947` | `1` |
+| `222` | `2` |
+| `8` | `8` |
+
+------------------------------------------------------------------------
+
+### Level 3: Combine Digit Logic
+
+### Q52. Check Whether a Number Is a Palindrome
+
+**Task:** A number is a palindrome if it reads the same from left to right and right to left. Take a non-negative integer and print `Palindrome` or `Not Palindrome`. Do not convert the number to a string.
+
+**Input:**
+```text
+1221
+```
+
+**Expected Output:**
+```text
+Palindrome
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `121` | `Palindrome` |
+| `123` | `Not Palindrome` |
+| `7` | `Palindrome` |
+| `100` | `Not Palindrome` |
+
+### Q53. Count How Many Times a Digit Appears
+
+**Task:** Take a non-negative integer `N` and a digit `D` from `0` to `9`. Count how many times digit `D` appears in `N`.
+
+**Input:**
+```text
+N = 505250
+D = 5
+```
+
+**Expected Output:**
+```text
+3
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `N = 505250, D = 5` | `3` |
+| `N = 12345, D = 7` | `0` |
+| `N = 7007, D = 7` | `2` |
+| `N = 0, D = 0` | `1` |
+
+### Q54. Check Whether All Digits Are the Same
+
+**Task:** Take a positive integer and print `Yes` if every digit is the same; otherwise, print `No`.
+
+**Input:**
+```text
+7777
+```
+
+**Expected Output:**
+```text
+Yes
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `7777` | `Yes` |
+| `7077` | `No` |
+| `5` | `Yes` |
+| `222` | `Yes` |
+
+### Q55. Compare the Sum of First and Last Digits with the Middle Digits' Sum
+
+**Task:** Take a positive integer with at least three digits. Find the sum of its first and last digits. Separately, find the sum of all digits between the first and last digits. Print both sums on separate lines. Do not convert the number to a string.
+
+**Input:**
+```text
+58321
+```
+
+**Expected Output:**
+```text
+First and last digits sum: 6
+Middle digits sum: 13
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `58321` | `First and last digits sum: 6`<br>`Middle digits sum: 13` |
+| `12345` | `First and last digits sum: 6`<br>`Middle digits sum: 9` |
+| `90218` | `First and last digits sum: 17`<br>`Middle digits sum: 3` |
+
+------------------------------------------------------------------------
+
+### Level 4: Factorial Practice
+
+### Q56. Print Factorial Values from 1! to N!
+
+**Task:** Take a positive integer `N`. Print the factorial value for every number from `1` to `N`, one result per line. Use one loop and update the factorial result as the number increases.
+
+**Input:**
+```text
+5
+```
+
+**Expected Output:**
+```text
+1
+2
+6
+24
+120
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `3` | `1`<br>`2`<br>`6` |
+| `4` | `1`<br>`2`<br>`6`<br>`24` |
+| `1` | `1` |
+
+### Q57. Check Whether a Number Is a Factorial Value
+
+**Task:** Take a positive integer `N`. Print `Yes` if `N` is equal to the factorial of some non-negative integer; otherwise, print `No`. Examples of factorial values are `1`, `2`, `6`, `24`, and `120`.
+
+**Input:**
+```text
+24
+```
+
+**Expected Output:**
+```text
+Yes
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `6` | `Yes` |
+| `25` | `No` |
+| `1` | `Yes` |
+| `120` | `Yes` |
+
+### Q58. Find the Largest Factorial Not Greater Than N
+
+**Task:** Take a positive integer `N`. Find the largest factorial value that is less than or equal to `N`. Consider `1` as the starting factorial value.
+
+**Input:**
+```text
+20
+```
+
+**Expected Output:**
+```text
+6
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `5` | `2` |
+| `6` | `6` |
+| `20` | `6` |
+| `100` | `24` |
+
+------------------------------------------------------------------------
+
+**Reminder:** Every question in Type 3 should be solved using a single `while` loop. Use `% 10` to get the last digit and `// 10` to remove the last digit when solving digit-based problems. For factorial questions, keep a running product and update it carefully. Do not use lists, nested loops, or functions.
