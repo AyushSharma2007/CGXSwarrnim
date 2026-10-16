@@ -140,3 +140,112 @@
 
 ---
 
+
+### E] `switch` Statement – 10 Questions
+
+1. Write a program that takes a month number (1–12) and prints the number of days in that month using `switch`  
+   (Hint: Consider 28/29 for February as 28 for simplicity).
+
+2. Write a program that checks a character and prints whether it is a vowel or consonant using `switch`.
+
+3. Create a program that takes a number from 1 to 4 and prints the season using multiple cases together:  
+   1 or 2 → Winter  
+   3 or 4 → Summer
+
+4. Write a program using `switch (true)` to assign class based on marks:  
+   ≥ 75 → Distinction  
+   ≥ 60 → 1st class  
+   ≥ 50 → 2nd class  
+   ≥ 35 → 3rd class  
+   below 35 → Failed
+
+5. Create a nested `switch` program:  
+   First take a role (“admin” or “user”).  
+   If role is “admin”, then take an action (“create”, “edit”, “delete”) and print the corresponding message.  
+   If role is “user”, print “Limited Access”.
+
+6. Predict and explain the output of the following code. Then correct it so that only one message is printed:
+```js
+let fruit = "mango";
+
+switch (fruit) {
+  case "apple":
+    console.log("Apple is red");
+  case "mango":
+    console.log("Mango is yellow");
+  case "banana":
+    console.log("Banana is yellow");
+  default:
+    console.log("Unknown fruit");
+}
+```
+
+7. Write a program that takes a value which can be either a number or a string (`0`, `"0"`, `false`, `null`, `undefined`) and uses `switch` to correctly identify each one. Explain why some values may not match as expected.
+
+8. Create a tricky calculator using `switch` that supports these operations:  
+   `+`, `-`, `*`, `/`, `%`, and also `**` (exponentiation).  
+   Handle division by zero properly inside the corresponding case.
+
+9. Write a program using `switch` that takes a date (day number of the month) and prints:  
+   “Beginning of the month” (1–10)  
+   “Middle of the month” (11–20)  
+   “End of the month” (21–31)  
+   Use `switch (true)` technique for range checking.
+
+10. Create a multi-level nested `switch` program for an online food ordering system:  
+    First select Category: `"veg"` or `"nonveg"`.  
+    Then select Item based on category.  
+    Finally select Size: `"half"` or `"full"` and print the final order summary with price.
+
+---
+
+### F] Ternary Operator Questions  
+
+
+1. Write a ternary operator to check whether a given number is divisible by 7. If yes, return `"Divisible by 7"`, otherwise `"Not Divisible by 7"`.
+
+2. Using ternary operator, check if the temperature is greater than or equal to 30. Return `"Hot Day"` or `"Pleasant Day"`.
+
+3. Write a ternary expression that checks if a string is empty. Return `"Empty String"` if it is empty, otherwise `"String has content"`.
+
+
+4. Using nested ternary, check a person’s age and return:  
+   - `"Child"` (age < 13)  
+   - `"Teenager"` (13–19)  
+   - `"Adult"` (20 and above)
+
+5. Write a nested ternary to find the greater of three numbers (`a`, `b`, `c`) without using `Math.max`.
+
+6. Create a nested ternary that classifies a student’s marks as:  
+   - `"Distinction"` (≥ 75)  
+   - `"First Class"` (60–74)  
+   - `"Second Class"` (50–59)  
+   - `"Pass"` (35–49)  
+   - `"Fail"` (< 35)
+
+7. Write a single nested ternary expression that returns one of the following based on a number:  
+   `"Positive Even"`, `"Positive Odd"`, `"Negative Even"`, `"Negative Odd"`, or `"Zero"`.
+
+8. Using only nested ternary operators, implement the full leap year logic  
+   (divisible by 4 **and** (not divisible by 100 **or** divisible by 400)) and return `"Leap Year"` or `"Not a Leap Year"`.
+
+9. Convert the following decision tree into **one single nested ternary** expression:  
+   ```
+   if (role === "admin") {
+     if (action === "delete") → "Admin Delete"
+     else if (action === "edit") → "Admin Edit"
+     else → "Admin Other"
+   } else if (role === "user") {
+     if (action === "view") → "User View"
+     else → "User Restricted"
+   } else {
+     → "Invalid Role"
+   }
+   ```
+
+10. Write a complex nested ternary that calculates discount and final amount based on these rules:  
+    - Cart total ≥ 5000 → 20% discount  
+    - Cart total ≥ 2000 → 10% discount  
+    - Cart total ≥ 1000 → 5% discount  
+    - Otherwise → 0% discount  
+    Return both the discount percentage and the final payable amount in a single expression (you may return an object or a formatted string).
