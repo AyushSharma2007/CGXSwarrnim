@@ -353,6 +353,7 @@ It produces a syntax error
 
 ``` text
 ```
+
 ------------------------------------------------------------------------
 
 ## Type 2: Basic While Loop Problems — Statement Based
@@ -1314,3 +1315,504 @@ Yes
 ------------------------------------------------------------------------
 
 **Reminder:** Every question in Type 3 should be solved using a single `while` loop. Use `% 10` to get the last digit and `// 10` to remove the last digit when solving digit-based problems. For factorial questions, keep a running product and update it carefully. Do not use lists, nested loops, or functions.
+
+
+------------------------------------------------------------------------
+
+## Type 4: Output Guessing — Nested `while` Loops, `break`, and `continue`
+
+**Instructions:** Predict the exact output of each program before running it. Track every variable carefully. Pay attention to indentation, when the inner loop starts and stops, and whether `break` or `continue` affects the inner loop or the outer loop.
+
+### Level 1: Understand Nested `while` Loops
+
+### Q59. Two Loops, Two Values
+
+```python
+i = 1
+
+while i <= 2:
+    j = 1
+
+    while j <= 3:
+        print(i, j)
+        j += 1
+
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q60. Print Values on the Same Line
+
+```python
+i = 1
+
+while i <= 3:
+    j = 1
+
+    while j <= 2:
+        print(j, end=" ")
+        j += 1
+
+    print()
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q61. Different Inner Loop Limits
+
+```python
+i = 1
+
+while i <= 3:
+    j = 1
+
+    while j <= i:
+        print("*", end=" ")
+        j += 1
+
+    print()
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q62. Outer Value Changes the Inner Starting Point
+
+```python
+i = 1
+
+while i <= 3:
+    j = i
+
+    while j <= 3:
+        print(j, end=" ")
+        j += 1
+
+    print()
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q63. Print After the Inner Loop
+
+```python
+i = 1
+
+while i <= 3:
+    j = 1
+
+    while j <= 2:
+        print(j, end=" ")
+        j += 1
+
+    print("End")
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+---
+
+### Level 2: Trace the Flow Carefully
+
+### Q64. Print After Both Loops
+
+```python
+i = 1
+
+while i <= 2:
+    j = 1
+
+    while j <= 2:
+        print(i + j)
+        j += 1
+
+    i += 1
+
+print("Finished")
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q65. Two Separate `while` Loops
+
+```python
+i = 1
+
+while i <= 2:
+    print("A", i)
+    i += 1
+
+j = 1
+
+while j <= 3:
+    print("B", j)
+    j += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q66. Inner Counter Is Not Reset
+
+```python
+i = 1
+j = 1
+
+while i <= 3:
+    while j <= 2:
+        print(i, j)
+        j += 1
+
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q67. Update the Outer Variable After the Inner Loop
+
+```python
+i = 1
+
+while i <= 3:
+    j = 1
+
+    while j <= 2:
+        print(i, end="")
+        j += 1
+
+    print()
+    i += 2
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q68. Inner Loop Depends on the Outer Variable
+
+```python
+i = 1
+
+while i <= 3:
+    j = 1
+
+    while j < i:
+        print(j, end=" ")
+        j += 1
+
+    print("X")
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+---
+
+### Level 3: Nested Loops with `break`
+
+### Q69. Break the Inner Loop
+
+```python
+i = 1
+
+while i <= 3:
+    j = 1
+
+    while j <= 4:
+        if j == 3:
+            break
+
+        print(i, j)
+        j += 1
+
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q70. Break After Printing a Value
+
+```python
+i = 1
+
+while i <= 2:
+    j = 1
+
+    while j <= 4:
+        print(j, end=" ")
+
+        if j == 2:
+            break
+
+        j += 1
+
+    print("|")
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q71. Break Condition Is Never Reached
+
+```python
+i = 1
+
+while i <= 2:
+    j = 1
+
+    while j <= 2:
+        if j == 5:
+            break
+
+        print(i, j)
+        j += 1
+
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q72. `break` Does Not Stop the Outer Loop
+
+```python
+i = 1
+
+while i <= 3:
+    j = 1
+
+    while j <= 3:
+        if j == 2:
+            break
+
+        print(i, j)
+        j += 1
+
+    print("Next row")
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+---
+
+### Level 4: Nested Loops with `continue`
+
+### Q73. Skip One Inner-Loop Value
+
+```python
+i = 1
+
+while i <= 2:
+    j = 0
+
+    while j < 4:
+        j += 1
+
+        if j == 2:
+            continue
+
+        print(i, j)
+
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q74. Continue After Updating the Counter
+
+```python
+i = 1
+
+while i <= 5:
+    i += 1
+
+    if i == 3:
+        continue
+
+    print(i, end=" ")
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q75. Continue in the Inner Loop
+
+```python
+i = 1
+
+while i <= 3:
+    j = 0
+
+    while j < 3:
+        j += 1
+
+        if j == 2:
+            continue
+
+        print(j, end=" ")
+
+    print("Row")
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q76. `continue` Does Not Skip the Whole Outer Loop
+
+```python
+i = 1
+
+while i <= 3:
+    j = 1
+
+    while j <= 3:
+        if j == i:
+            j += 1
+            continue
+
+        print(i, j)
+        j += 1
+
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+---
+
+### Level 5: Combine Nested Loops, `break`, and `continue`
+
+### Q77. Skip One Value, Then Break
+
+```python
+i = 1
+
+while i <= 2:
+    j = 0
+
+    while j < 5:
+        j += 1
+
+        if j == 2:
+            continue
+
+        if j == 4:
+            break
+
+        print(i, j)
+
+    i += 1
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+### Q78. Predict the Complete Output
+
+```python
+i = 1
+
+while i <= 3:
+    j = 1
+
+    while j <= 4:
+        if j == 2:
+            j += 1
+            continue
+
+        if i == 3 and j == 4:
+            break
+
+        print(i * j, end=" ")
+        j += 1
+
+    print("End")
+    i += 1
+
+print("Done")
+```
+
+**Predicted output:**
+
+```text
+
+```
+
+---
+
+**Reminder:** In a nested loop, `break` exits the nearest loop containing it. `continue` skips the remaining statements in the current iteration of the nearest loop containing it. Always check which loop the statement belongs to by following indentation.
