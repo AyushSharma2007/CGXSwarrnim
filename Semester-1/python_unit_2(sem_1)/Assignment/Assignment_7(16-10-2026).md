@@ -1323,6 +1323,12 @@ Yes
 
 **Instructions:** Predict the exact output of each program before running it. Track every variable carefully. Pay attention to indentation, when the inner loop starts and stops, and whether `break` or `continue` affects the inner loop or the outer loop.
 
+For every question:
+- Write the exact output, including spaces and line breaks.
+- If nothing is printed, write **No output**.
+- Do not run the code until you have made your prediction.
+- These are output-guessing questions; do not write a program to solve them.
+
 ### Level 1: Understand Nested `while` Loops
 
 ### Q59. Two Loops, Two Values
@@ -1816,3 +1822,490 @@ print("Done")
 ---
 
 **Reminder:** In a nested loop, `break` exits the nearest loop containing it. `continue` skips the remaining statements in the current iteration of the nearest loop containing it. Always check which loop the statement belongs to by following indentation.
+
+
+------------------------------------------------------------------------
+
+## Type 5: Statement-Based Programming Problems — Single and Nested `while` Loops
+
+**Instructions:**
+- Solve each problem using `while` loops.
+- Questions Q79–Q86 should use **one `while` loop only**.
+- Questions Q87–Q98 should use **nested `while` loops**.
+- Do not use lists, tuples, sets, dictionaries, or user-defined functions.
+- Read the input/output format and test cases carefully.
+- For number problems, do not convert the number to a string unless the task explicitly allows it.
+
+### Part A: Single `while` Loop Problems
+
+### Q79. Check Whether a Number Is Prime
+
+**Task:** Take a positive integer `N`. Print `Prime` if it is a prime number; otherwise, print `Not Prime`. A prime number is greater than `1` and has exactly two positive factors.
+
+**Input:**
+```text
+17
+```
+
+**Expected Output:**
+```text
+Prime
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `2` | `Prime` |
+| `12` | `Not Prime` |
+| `1` | `Not Prime` |
+| `29` | `Prime` |
+
+### Q80. Find the HCF (GCD) of Two Numbers
+
+**Task:** Take two positive integers `A` and `B`. Find their highest common factor (HCF), also called the greatest common divisor (GCD), using a `while` loop.
+
+**Input:**
+```text
+A = 18
+B = 24
+```
+
+**Expected Output:**
+```text
+6
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `A = 6, B = 120` | `6` |
+| `A = 25, B = 15` | `5` |
+| `A = 7, B = 9` | `1` |
+| `A = 12, B = 12` | `12` |
+
+### Q81. Find the LCM of Two Numbers
+
+**Task:** Take two positive integers `A` and `B`. Find their least common multiple (LCM) using a `while` loop.
+
+**Input:**
+```text
+A = 6
+B = 8
+```
+
+**Expected Output:**
+```text
+24
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `A = 6, B = 120` | `120` |
+| `A = 4, B = 10` | `20` |
+| `A = 7, B = 9` | `63` |
+| `A = 5, B = 5` | `5` |
+
+### Q82. Check Whether a Number Is Perfect
+
+**Task:** A positive integer is called a perfect number if the sum of its positive factors excluding itself equals the number. Print `Perfect` or `Not Perfect`.
+
+**Input:**
+```text
+28
+```
+
+**Expected Output:**
+```text
+Perfect
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `6` | `Perfect` |
+| `28` | `Perfect` |
+| `12` | `Not Perfect` |
+| `1` | `Not Perfect` |
+
+### Q83. Check Whether a Number Is a Strong Number
+
+**Task:** A number is a strong number if the sum of the factorials of its digits equals the original number. Print `Strong` or `Not Strong`. Use a single `while` loop to process the digits; calculate each digit's factorial without using another loop.
+
+**Input:**
+```text
+145
+```
+
+**Expected Output:**
+```text
+Strong
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `145` | `Strong` |
+| `2` | `Strong` |
+| `123` | `Not Strong` |
+| `40585` | `Strong` |
+
+### Q84. Check Whether a Number Is an Armstrong Number
+
+**Task:** A non-negative integer is an Armstrong number if the sum of each digit raised to the power of the total number of digits equals the original number. Print `Armstrong` or `Not Armstrong`. Use one `while` loop for digit processing; do not use strings or lists.
+
+**Input:**
+```text
+153
+```
+
+**Expected Output:**
+```text
+Armstrong
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `153` | `Armstrong` |
+| `370` | `Armstrong` |
+| `123` | `Not Armstrong` |
+| `9474` | `Armstrong` |
+
+### Q85. Convert a Decimal Number to Binary
+
+**Task:** Take a non-negative decimal integer and print its binary representation. Do not use Python's `bin()` function or convert the number to a string. You may use arithmetic and one `while` loop.
+
+**Input:**
+```text
+13
+```
+
+**Expected Output:**
+```text
+1101
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `10` | `1010` |
+| `8` | `1000` |
+| `2` | `10` |
+| `0` | `0` |
+
+### Q86. Find the Sum of a Number's Divisors
+
+**Task:** Take a positive integer `N` and calculate the sum of all its positive divisors, including `1` and `N`.
+
+**Input:**
+```text
+12
+```
+
+**Expected Output:**
+```text
+28
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---:|
+| `6` | `12` |
+| `10` | `18` |
+| `7` | `8` |
+| `1` | `1` |
+
+------------------------------------------------------------------------
+
+### Part B: Nested Loops and Statement-Based Problems
+
+**Instructions:** Only Q87–Q90 are pattern-printing questions. The remaining questions focus on number logic and problem-solving. Use `while` loops and nested loops where needed. Do not use lists, dictionaries, or user-defined functions.
+
+### Q87. Print a Number Triangle
+
+**Task:** Take a positive integer `N`. Print `N` rows. Row `i` should contain numbers from `1` to `i`.
+
+**Input:**
+```text
+4
+```
+
+**Expected Output:**
+```text
+1
+1 2
+1 2 3
+1 2 3 4
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `2` | `1`<br>`1 2` |
+| `3` | `1`<br>`1 2`<br>`1 2 3` |
+
+### Q88. Print a Hollow Rectangle
+
+**Task:** Take rows `R` and columns `C` (both at least `2`). Print stars on the boundary and spaces inside.
+
+**Input:**
+```text
+R = 4
+C = 5
+```
+
+**Expected Output:**
+```text
+* * * * *
+*       *
+*       *
+* * * * *
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `R = 3, C = 4` | `* * * *`<br>`*     *`<br>`* * * *` |
+| `R = 2, C = 3` | `* * *`<br>`* * *` |
+
+### Q89. Print a Right-Aligned Triangle
+
+**Task:** Take a positive integer `N`. Print a right-aligned triangle of stars with `N` rows. Use spaces before the stars.
+
+**Input:**
+```text
+3
+```
+
+**Expected Output:**
+```text
+    *
+  * *
+* * *
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `2` | `  *`<br>`* *` |
+| `4` | `      *`<br>`    * *`<br>`  * * *`<br>`* * * *` |
+
+### Q90. Print a Multiplication Grid
+
+**Task:** Take a positive integer `N`. Print an `N × N` grid where each cell in row `i` and column `j` contains `i * j`. Row and column numbers start from `1`.
+
+**Input:**
+```text
+3
+```
+
+**Expected Output:**
+```text
+1 2 3
+2 4 6
+3 6 9
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `2` | `1 2`<br>`2 4` |
+| `1` | `1` |
+
+---
+
+### Statement-Based Number and Logic Problems
+
+### Q91. Print the Fibonacci Series up to a Limit
+
+**Task:** Take a non-negative integer `N` and print all Fibonacci numbers less than or equal to `N`. Start the series with `0, 1`. Do not print a number greater than `N`.
+
+**Input:**
+```text
+N = 20
+```
+
+**Expected Output:**
+```text
+0 1 1 2 3 5 8 13
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `N = 1` | `0 1 1` |
+| `N = 10` | `0 1 1 2 3 5 8` |
+| `N = 0` | `0` |
+
+### Q92. Print All Prime Numbers up to N
+
+**Task:** Take an integer `N` greater than or equal to `2`. Print every prime number from `2` to `N` in ascending order. Use nested `while` loops to test whether each number is prime.
+
+**Input:**
+```text
+N = 15
+```
+
+**Expected Output:**
+```text
+2 3 5 7 11 13
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `N = 10` | `2 3 5 7` |
+| `N = 2` | `2` |
+| `N = 20` | `2 3 5 7 11 13 17 19` |
+
+### Q93. Print All Armstrong Numbers up to N
+
+**Task:** Take a positive integer `N`. Print all Armstrong numbers from `0` to `N`. A number is an Armstrong number if the sum of its digits, each raised to the power of the total number of digits, equals the number itself. Use loops to count digits and calculate the digit-power sum.
+
+**Input:**
+```text
+N = 500
+```
+
+**Expected Output:**
+```text
+0 1 2 3 4 5 6 7 8 9 153 370 371 407
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `N = 20` | `0 1 2 3 4 5 6 7 8 9` |
+| `N = 160` | `0 1 2 3 4 5 6 7 8 9 153` |
+| `N = 500` | `0 1 2 3 4 5 6 7 8 9 153 370 371 407` |
+
+### Q94. Print All Perfect Numbers up to N
+
+**Task:** Take a positive integer `N`. Print all perfect numbers from `1` to `N`. A perfect number equals the sum of its positive divisors excluding itself. Use nested loops to test each number.
+
+**Input:**
+```text
+N = 1000
+```
+
+**Expected Output:**
+```text
+6 28 496
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `N = 30` | `6 28` |
+| `N = 6` | `6` |
+| `N = 10` | `6` |
+
+### Q95. Find All Pairs Whose Sum Is N
+
+**Task:** Take a positive integer `N`. Print all pairs of positive integers `(a, b)` such that `a < b` and `a + b = N`. Print each pair once, in increasing order of `a`.
+
+**Input:**
+```text
+N = 7
+```
+
+**Expected Output:**
+```text
+1 + 6
+2 + 5
+3 + 4
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `N = 5` | `1 + 4`<br>`2 + 3` |
+| `N = 6` | `1 + 5`<br>`2 + 4` |
+| `N = 3` | `1 + 2` |
+
+### Q96. Print All Two-Digit Numbers with a Given Digit Sum
+
+**Task:** Take a digit sum `S` from `1` to `18`. Print all two-digit numbers whose digits add up to `S`, in ascending order.
+
+**Input:**
+```text
+S = 5
+```
+
+**Expected Output:**
+```text
+14 23 32 41 50
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `S = 2` | `11` |
+| `S = 9` | `18 27 36 45 54 63 72 81 90` |
+| `S = 18` | `99` |
+
+### Q97. Find All Common Divisors of Two Numbers
+
+**Task:** Take two positive integers `A` and `B`. Print all positive numbers that divide both `A` and `B`, in ascending order.
+
+**Input:**
+```text
+A = 12
+B = 18
+```
+
+**Expected Output:**
+```text
+1 2 3 6
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `A = 8, B = 12` | `1 2 4` |
+| `A = 7, B = 9` | `1` |
+| `A = 10, B = 20` | `1 2 5 10` |
+
+### Q98. Find Prime Factor Pairs
+
+**Task:** Take an integer `N` greater than `1`. Print all pairs of prime numbers `(a, b)` such that `a <= b` and `a * b = N`. Print each pair once. If no such pair exists, print `No prime factor pair`.
+
+**Input:**
+```text
+N = 15
+```
+
+**Expected Output:**
+```text
+3 * 5
+```
+
+**Test Cases:**
+
+| Input | Expected Output |
+|---|---|
+| `N = 30` | `No prime factor pair` |
+| `N = 49` | `7 * 7` |
+| `N = 13` | `No prime factor pair` |
+
+------------------------------------------------------------------------
