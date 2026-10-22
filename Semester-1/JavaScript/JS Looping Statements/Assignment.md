@@ -220,4 +220,26 @@ Try solving all 10 questions without looking at anyone else's code. Focus on und
 5. Given an array of ages `[12, 18, 25, 15, 30, 17, 22]`, use a `for` loop with `continue` to print only the ages of people who are eligible to vote (age ≥ 18).
 
 
+### Part D] `Reverse` For Loop
 
+1. Write a reverse `for` loop that prints all numbers from 50 down to 1 that are divisible by 3 but **not** divisible by 9.  
+
+2. Write a reverse `for` loop that calculates the product of all odd digits of a given number (example: 4729 → 7 × 9 = 63).   
+
+3. Given the string `"Programming"`, use a reverse `for` loop to create a new string that contains only the consonants in reverse order. 
+
+4. Write a reverse `for` loop that prints the first 15 Fibonacci numbers in **reverse order** (starting from the 15th number down to 0).
+
+5. Use a reverse `for` loop to check whether a given number is a palindrome by comparing digits from both ends (without converting the number to a string).  
+
+6. Given an array `[12, 45, 7, 23, 56, 89, 34]`, use a reverse `for` loop to find the largest number that is less than 50 (do **not** use any built-in methods).   
+
+7. Given an array of temperatures `[32, 28, 41, 19, 35, 27, 38]`, use a reverse `for` loop to count how many days were colder than 30°C, starting from the last day.  
+
+8. Write a reverse `for` loop that converts a decimal number to its binary representation but prints the binary digits in reverse order (example: 13 → 1011 becomes 1101).  
+
+9. **(Reverse For Loop + `break`)**  
+Given an array `[90, 85, 70, 95, 60, 88, 75]`, use a reverse `for` loop to find the first score (starting from the end) that is greater than 80. Print that score and its index, then stop the loop using `break`.  
+
+10. **(Reverse For Loop + `continue`)**  
+Write a reverse `for` loop that prints numbers from 40 down to 1, but skips every number that is a perfect square using `continue`.
