@@ -255,7 +255,41 @@ Write a reverse `for` loop that prints numbers from 40 down to 1, but skips ever
 7 8 9 10
 ```
 
-2. Print the following right-triangle alphabet pattern using nested `for` loops (without hard-coding any row):
+2. Print the following right-triangle number pattern using nested `for` loops (without hard-coding any row):
+```
+1
+2 2
+3 3 3
+4 4 4 4
+```
+
+3. Print the following right-triangle number pattern using nested `for` loops (without hard-coding any row):
+```
+1
+2 3
+4 5 6
+7 8 9 10
+```
+
+4. Print the following pattern using nested `for` loops (without hard-coding any row):
+```
+* * * *
+*     *
+*     *
+* * * *
+```
+
+5. Print the following right-triangle number pattern using nested `for` loops (without hard-coding any row):
+```
+#
+$ $
+# # #
+$ $ $ $
+# # # # #
+$ $ $ $ $ $
+```
+
+6. Print the following right-triangle alphabet pattern using nested `for` loops (without hard-coding any row):
 ```
 A
 A B
@@ -264,7 +298,7 @@ A B C D
 A B C D E
 ```
 
-3. Print this hollow right-triangle star pattern using nested loops:
+7. Print this hollow right-triangle star pattern using nested loops:
 ```
 *
 * *
@@ -273,7 +307,7 @@ A B C D E
 * * * * *
 ```
 
-4. Print the following reverse right-angle star pattern using nested `for` loops:
+8. Print the following reverse right-angle star pattern using nested `for` loops:
 ```
 *****
 ****
@@ -282,7 +316,7 @@ A B C D E
 *
 ```
 
-5. Print the following reverse right-angle pattern where each row contains the row number repeated, using nested loops:
+9. Print the following reverse right-angle pattern where each row contains the row number repeated, using nested loops:
 ```
 5 5 5 5 5
 4 4 4 4
@@ -292,7 +326,7 @@ A B C D E
 ```
 
 
-6. Print this reverse right-angle number pattern using nested `for` loops:
+10. Print this reverse right-angle number pattern using nested `for` loops:
 ```
 1 2 3 4 5
 1 2 3 4
@@ -301,7 +335,7 @@ A B C D E
 1
 ```
 
-7. Print the following reverse right-angle pattern of consecutive numbers using nested loops:
+11. Print the following reverse right-angle pattern of consecutive numbers using nested loops:
 ```
 15 14 13 12 11
 10  9  8  7
@@ -310,7 +344,7 @@ A B C D E
  1
 ```
 
-8. Print this reverse right-angle hollow star pattern (only the borders should have stars) using nested `for` loops:
+12. Print this reverse right-angle hollow star pattern (only the borders should have stars) using nested `for` loops:
 ```
 * * * * *
 *     *
@@ -319,6 +353,14 @@ A B C D E
 *
 ```
 
-9. Using nested `for` loops, print a 5×5 square of stars (`*`) but skip printing a star whenever the row number equals the column number (i.e., leave the main diagonal empty).
+13. Using nested `for` loops, print a 5×5 square of stars (`*`) but skip printing a star whenever the row number equals the column number (i.e., leave the main diagonal empty).
 
-10. Write nested `for` loops that print the multiplication table of numbers from 1 to 5, but only show the products that are even. (Each table should start on a new line.)
+14. Write nested `for` loops that print the multiplication table of numbers from 1 to 5, but only show the products that are even. (Each table should start on a new line.)
+
+15. Write a program to print a symmetric number palindrome pyramid on each row.
+
+```
+    1
+  1 2 1
+1 2 3 2 1
+```
