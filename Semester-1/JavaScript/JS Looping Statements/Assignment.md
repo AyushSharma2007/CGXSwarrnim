@@ -243,3 +243,124 @@ Given an array `[90, 85, 70, 95, 60, 88, 75]`, use a reverse `for` loop to find 
 
 10. **(Reverse For Loop + `continue`)**  
 Write a reverse `for` loop that prints numbers from 40 down to 1, but skips every number that is a perfect square using `continue`.
+
+---
+### Part E] `Nested For Loop` Questions
+
+1. Print the following right-triangle number pattern using nested `for` loops (without hard-coding any row):
+```
+1
+2 3
+4 5 6
+7 8 9 10
+```
+
+2. Print the following right-triangle number pattern using nested `for` loops (without hard-coding any row):
+```
+1
+2 2
+3 3 3
+4 4 4 4
+```
+
+3. Print the following right-triangle number pattern using nested `for` loops (without hard-coding any row):
+```
+1
+2 3
+4 5 6
+7 8 9 10
+```
+
+4. Print the following pattern using nested `for` loops (without hard-coding any row):
+```
+* * * *
+*     *
+*     *
+* * * *
+```
+
+5. Print the following right-triangle number pattern using nested `for` loops (without hard-coding any row):
+```
+#
+$ $
+# # #
+$ $ $ $
+# # # # #
+$ $ $ $ $ $
+```
+
+6. Print the following right-triangle alphabet pattern using nested `for` loops (without hard-coding any row):
+```
+A
+A B
+A B C
+A B C D
+A B C D E
+```
+
+7. Print this hollow right-triangle star pattern using nested loops:
+```
+*
+* *
+*   *
+*     *
+* * * * *
+```
+
+8. Print the following reverse right-angle star pattern using nested `for` loops:
+```
+*****
+****
+***
+**
+*
+```
+
+9. Print the following reverse right-angle pattern where each row contains the row number repeated, using nested loops:
+```
+5 5 5 5 5
+4 4 4 4
+3 3 3
+2 2
+1
+```
+
+
+10. Print this reverse right-angle number pattern using nested `for` loops:
+```
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+```
+
+11. Print the following reverse right-angle pattern of consecutive numbers using nested loops:
+```
+15 14 13 12 11
+10  9  8  7
+ 6  5  4
+ 3  2
+ 1
+```
+
+12. Print this reverse right-angle hollow star pattern (only the borders should have stars) using nested `for` loops:
+```
+* * * * *
+*     *
+*   *
+* *
+*
+```
+
+13. Using nested `for` loops, print a 5×5 square of stars (`*`) but skip printing a star whenever the row number equals the column number (i.e., leave the main diagonal empty).
+
+14. Write nested `for` loops that print the multiplication table of numbers from 1 to 5, but only show the products that are even. (Each table should start on a new line.)
+
+15. Write a program to print a symmetric number palindrome pyramid on each row.
+
+```
+    1
+  1 2 1
+1 2 3 2 1
+```
