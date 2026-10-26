@@ -492,15 +492,4 @@ Output: 12 is not a prime number
 
 ------------------------------------------------------------------------
 
-# TIME MANAGEMENT
-
-  Section                                  Questions    Marks   Suggested Time
-  -------------------------------------- ----------- -------- ----------------
-  Section A --- MCQ                               15       15           15 min
-  Section B --- Programming                        8       32           32 min
-  Section C --- Integrated Programming             2       13           13 min
-  **Total**                                   **25**   **60**       **60 min**
-
-------------------------------------------------------------------------
-
 # END OF QUESTION PAPER
