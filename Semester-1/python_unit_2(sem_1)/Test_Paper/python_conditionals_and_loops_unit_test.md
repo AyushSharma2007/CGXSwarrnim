@@ -2,8 +2,8 @@
 
 **Course:** B.Tech --- 1st Semester\
 **Subject:** Python Programming\
-**Time:** 60 Minutes\
-**Maximum Marks:** 60
+**Time:** 80 Minutes\
+**Maximum Marks:** 80
 
 ------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ loops.
 ## General Instructions
 
 1.  Attempt all questions.
-2.  The total duration of the test is **60 minutes**.
+2.  The total duration of the test is **80 minutes**.
 3.  In Section A, each question has **only ONE correct answer**.
 4.  Select only one option for each MCQ.
 5.  Write complete Python programs wherever required.
@@ -491,5 +491,90 @@ Output: 12 is not a prime number
 ```
 
 ------------------------------------------------------------------------
+
+# SECTION D — PATTERN PRINTING
+
+**4 × 5 = 20 Marks**  
+**Suggested Time: 20 Minutes**
+
+Write a Python program for each pattern. Use nested loops where appropriate. Match the spacing and line breaks shown in the expected output.
+
+---
+
+### Q26. Right-Angled Star Triangle
+
+Take an integer `N` and print a right-angled triangle of stars with `N` rows.
+
+**Sample Input**
+```text
+Enter N: 4
+```
+
+**Expected Output**
+```text
+*
+* *
+* * *
+* * * *
+```
+
+---
+
+### Q27. Inverted Number Triangle
+
+Take an integer `N` and print numbers from `1` to the current row number, starting with `N` numbers in the first row and decreasing by one number in each following row.
+
+**Sample Input**
+```text
+Enter N: 4
+```
+
+**Expected Output**
+```text
+1 2 3 4
+1 2 3
+1 2
+1
+```
+
+---
+
+### Q28. Increasing Number Triangle
+
+Take an integer `N` and print the following pattern. Each row contains the row number repeated that many times.
+
+**Sample Input**
+```text
+Enter N: 4
+```
+
+**Expected Output**
+```text
+1
+2 2
+3 3 3
+4 4 4 4
+```
+
+---
+
+### Q29. Centered Star Pyramid
+
+Take an odd or even positive integer `N` representing the number of rows and print a centered star pyramid. Each row should have leading spaces followed by stars separated by single spaces.
+
+**Sample Input**
+```text
+Enter N: 4
+```
+
+**Expected Output**
+```text
+   *
+  * *
+ * * *
+* * * *
+```
+
+---
 
 # END OF QUESTION PAPER
