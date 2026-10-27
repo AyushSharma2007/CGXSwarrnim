@@ -331,3 +331,144 @@ git restore --staged filename
 ```
 
 ---
+
+
+**Important Commands (Git & GitHub)**
+
+
+---
+
+### **1. Configuration**
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+git config --list
+```
+
+---
+
+### **2. Starting a Project**
+```bash
+git init                          # Create new local repository
+git clone <url>                   # Copy remote repository to local
+```
+
+---
+
+### **3. Basic Daily Commands**
+```bash
+git status                        # Check current state
+git add .                         # Stage all changes
+git add filename                  # Stage specific file
+git commit -m "message"           # Save snapshot locally
+git log --oneline                 # View short commit history
+git push origin main              # Upload commits to GitHub
+git push -u origin main           # First time push
+```
+
+---
+
+### **4. Connecting Local Project to GitHub (Very Important)**
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <url>
+git branch -M main
+git push -u origin main
+```
+
+---
+
+### **5. Branching Commands**
+```bash
+git branch                        # List all branches
+git switch -c feature-name        # Create + switch to new branch (modern)
+git checkout -b feature-name      # Create + switch (old style)
+git switch main                   # Switch to main
+git merge feature-name            # Merge feature into current branch
+git branch -d feature-name        # Delete branch (safe)
+```
+
+---
+
+### **6. Pull Request Related**
+```bash
+git push -u origin feature-name   # Push feature branch
+git pull origin main              # Update local main after PR is merged
+git push origin --delete feature-name   # Delete remote branch
+```
+
+---
+
+### **7. Stash (Temporarily save work)**
+```bash
+git stash                         # Save uncommitted changes
+git stash -u                      # Include untracked files
+git stash list                    # See all stashes
+git stash pop                     # Restore latest stash
+git stash apply                   # Restore but keep stash
+```
+
+---
+
+### **8. Tags**
+```bash
+git tag -a v1.0.0 -m "First release"   # Create annotated tag
+git tag                               # List tags
+git push origin v1.0.0                # Push tag to GitHub
+```
+
+---
+
+### **9. Undo / Reset / Revert**
+```bash
+git restore filename                  # Discard changes in file
+git restore --staged filename         # Unstage a file
+git reset --soft HEAD~1               # Undo commit (keep changes staged)
+git reset --mixed HEAD~1              # Undo commit (keep changes unstaged)
+git reset --hard HEAD~1               # Undo commit + discard changes
+git revert HEAD                       # Safely undo a commit (creates new commit)
+```
+
+---
+
+### **10. Other Useful Commands**
+```bash
+git remote -v                         # Check remote URL
+git diff                              # See unstaged changes
+git diff --staged                     # See staged changes
+git rm filename                       # Delete file + stage deletion
+git rm --cached filename              # Stop tracking file but keep it
+```
+
+---
+
+### **Most Important (Must Remember)**
+
+| Purpose                        | Command                          |
+|--------------------------------|----------------------------------|
+| Stage all files                | `git add .`                      |
+| Commit changes                 | `git commit -m "message"`        |
+| Check status                   | `git status`                     |
+| View short history             | `git log --oneline`              |
+| First time push                | `git push -u origin main`        |
+| Create + switch branch         | `git switch -c feature-name`     |
+| Temporary save work            | `git stash`                      |
+| Mark a release                 | `git tag -a v1.0.0 -m "msg"`     |
+| Safe undo of commit            | `git revert HEAD`                |
+
+---
+
+** Workflow commands to create a local folder to git repo and push your code:**  
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <url>
+git branch -M main
+git push -u origin main
+```
+
+
